@@ -1,0 +1,9 @@
+beautifulsoup4>=4.13
+joblib>=1.4
+numpy>=2.0
+pandas>=2.2
+requests>=2.32
+scikit-learn>=1.6
+
+# Optional foundation-model benchmark (pretrained weights are non-commercial):
+# pip install "tabfm[jax]>=1.0.0"

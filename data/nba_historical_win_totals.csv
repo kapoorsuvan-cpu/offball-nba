@@ -1,0 +1,301 @@
+season,season_end_year,team,win_total_line,actual_wins_odds_source,actual_losses_odds_source,source_result,championship_odds,source_url
+2016-17,2017,Atlanta Hawks,43.5,43,39,under,+10000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Boston Celtics,52.5,53,29,over,+2900,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Brooklyn Nets,21.5,20,62,under,+135000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Charlotte Hornets,42.5,36,46,under,+55000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Chicago Bulls,39.0,41,41,over,+9000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Cleveland Cavaliers,56.5,51,31,under,+385,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Dallas Mavericks,39.5,33,49,under,+39000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Denver Nuggets,37.0,40,42,over,+50000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Detroit Pistons,44.5,37,45,under,+14000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Golden State Warriors,66.5,67,15,over,-128,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Houston Rockets,44.0,55,27,over,+16000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Indiana Pacers,44.5,42,40,under,+8000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Los Angeles Clippers,53.5,51,31,under,+3500,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Los Angeles Lakers,24.5,26,56,over,+39000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Memphis Grizzlies,42.5,43,39,over,+8800,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Miami Heat,34.5,41,41,over,+17500,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Milwaukee Bucks,34.5,42,40,over,+18000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Minnesota Timberwolves,41.5,31,51,under,+10000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,New Orleans Pelicans,36.5,34,48,under,+14500,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,New York Knicks,38.5,31,51,under,+7500,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Oklahoma City Thunder,45.0,47,35,over,+6000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Orlando Magic,37.5,29,53,under,+22500,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Philadelphia 76ers,23.5,28,54,over,+50000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Phoenix Suns,29.5,24,58,under,+85000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Portland Trail Blazers,45.5,41,41,under,+13000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Sacramento Kings,33.5,32,50,under,+50000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,San Antonio Spurs,57.5,61,21,over,+925,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Toronto Raptors,50.5,51,31,over,+5500,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Utah Jazz,47.5,51,31,over,+10000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2016-17,2017,Washington Wizards,42.5,49,33,over,+16000,https://www.basketball-reference.com/leagues/NBA_2017_preseason_odds.html
+2017-18,2018,Atlanta Hawks,25.5,24,58,under,+200000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Boston Celtics,53.5,55,27,over,+1200,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Brooklyn Nets,27.5,28,54,over,+250000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Charlotte Hornets,42.5,36,46,under,+50000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Chicago Bulls,22.0,27,55,over,+250000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Cleveland Cavaliers,53.5,50,32,under,+515,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Dallas Mavericks,35.5,24,58,under,+50000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Denver Nuggets,45.5,46,36,over,+20000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Detroit Pistons,38.5,39,43,over,+63000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Golden State Warriors,67.5,58,24,under,-187,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Houston Rockets,55.5,65,17,over,+2150,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Indiana Pacers,31.5,48,34,over,+125000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Los Angeles Clippers,43.5,42,40,under,+19000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Los Angeles Lakers,33.5,35,47,over,+30000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Memphis Grizzlies,37.5,22,60,under,+37000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Miami Heat,43.5,44,38,over,+24000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Milwaukee Bucks,47.5,44,38,under,+8000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Minnesota Timberwolves,48.5,47,35,under,+5000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,New Orleans Pelicans,39.5,48,34,over,+22000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,New York Knicks,30.5,29,53,under,+100000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Oklahoma City Thunder,53.5,48,34,under,+2150,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Orlando Magic,33.5,25,57,under,+250000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Philadelphia 76ers,39.5,52,30,over,+19000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Phoenix Suns,28.5,21,61,under,+125000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Portland Trail Blazers,42.5,49,33,over,+31500,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Sacramento Kings,27.5,27,55,under,+125000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,San Antonio Spurs,55.0,47,35,under,+1800,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Toronto Raptors,48.5,59,23,over,+15000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Utah Jazz,40.5,48,34,over,+25000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2017-18,2018,Washington Wizards,48.5,43,39,under,+9000,https://www.basketball-reference.com/leagues/NBA_2018_preseason_odds.html
+2018-19,2019,Atlanta Hawks,23.5,29,53,over,+150000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Boston Celtics,59.0,49,33,under,+620,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Brooklyn Nets,32.0,42,40,over,+125000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Charlotte Hornets,35.5,39,43,over,+50000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Chicago Bulls,30.0,22,60,under,+50000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Cleveland Cavaliers,30.5,19,63,under,+50000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Dallas Mavericks,35.5,33,49,under,+35000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Denver Nuggets,47.5,54,28,over,+20000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Detroit Pistons,38.5,41,41,over,+35000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Golden State Warriors,62.5,57,25,under,-168,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Houston Rockets,56.5,53,29,under,+1000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Indiana Pacers,47.5,48,34,over,+12500,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Los Angeles Clippers,37.0,48,34,over,+40000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Los Angeles Lakers,48.5,37,45,under,+1800,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Memphis Grizzlies,34.5,33,49,under,+65000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Miami Heat,43.0,39,43,under,+35000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Milwaukee Bucks,48.0,60,22,over,+10000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Minnesota Timberwolves,41.5,36,46,under,+25000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,New Orleans Pelicans,45.5,33,49,under,+10000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,New York Knicks,28.5,17,65,under,+35000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Oklahoma City Thunder,48.5,49,33,over,+3800,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Orlando Magic,31.0,42,40,over,+75000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Philadelphia 76ers,53.5,51,31,under,+2000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Phoenix Suns,29.0,19,63,under,+75000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Portland Trail Blazers,42.0,53,29,over,+30000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Sacramento Kings,26.0,39,43,over,+200000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,San Antonio Spurs,43.5,48,34,over,+10000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Toronto Raptors,55.5,58,24,over,+1850,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Utah Jazz,49.5,50,32,over,+10000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2018-19,2019,Washington Wizards,45.5,32,50,under,+11000,https://www.basketball-reference.com/leagues/NBA_2019_preseason_odds.html
+2019-20,2020,Atlanta Hawks,33.5,20,47,under,+25000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Boston Celtics,48.5,48,24,under,+2900,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Brooklyn Nets,43.5,35,37,under,+5500,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Charlotte Hornets,23.5,23,42,under,+200000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Chicago Bulls,33.5,22,43,under,+42500,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Cleveland Cavaliers,24.5,19,46,under,+150000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Dallas Mavericks,40.5,43,32,over,+10500,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Denver Nuggets,53.0,46,27,under,+2000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Detroit Pistons,37.5,20,46,under,+25000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Golden State Warriors,47.5,15,50,under,+950,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Houston Rockets,54.0,44,28,under,+700,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Indiana Pacers,46.5,45,28,under,+5000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Los Angeles Clippers,53.5,49,23,under,+425,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Los Angeles Lakers,50.5,52,19,over,+450,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Memphis Grizzlies,27.5,34,39,over,+100000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Miami Heat,43.5,44,29,over,+6000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Milwaukee Bucks,57.5,56,17,under,+550,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Minnesota Timberwolves,35.5,19,45,under,+50000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,New Orleans Pelicans,37.5,30,42,under,+12500,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,New York Knicks,26.5,21,45,under,+100000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Oklahoma City Thunder,32.5,44,28,over,+25000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Orlando Magic,41.5,33,40,under,+20000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Philadelphia 76ers,54.5,43,30,under,+775,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Phoenix Suns,29.5,34,39,over,+50000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Portland Trail Blazers,46.5,35,39,under,+3500,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Sacramento Kings,37.5,31,41,under,+15000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,San Antonio Spurs,46.5,32,39,under,+6000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Toronto Raptors,46.5,53,19,over,+5500,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Utah Jazz,53.5,44,28,under,+1300,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2019-20,2020,Washington Wizards,27.0,25,47,under,+125000,https://www.basketball-reference.com/leagues/NBA_2020_preseason_odds.html
+2020-21,2021,Atlanta Hawks,34.5,41,31,over,+10000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Boston Celtics,44.5,36,36,under,+1400,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Brooklyn Nets,45.5,48,24,over,+600,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Charlotte Hornets,26.5,33,39,over,+25000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Chicago Bulls,29.5,31,41,over,+25000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Cleveland Cavaliers,22.5,22,50,under,+50000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Dallas Mavericks,42.5,42,30,under,+2500,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Denver Nuggets,44.5,47,25,over,+1800,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Detroit Pistons,23.5,20,52,under,+50000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Golden State Warriors,37.5,39,33,over,+2500,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Houston Rockets,34.5,17,55,under,+5000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Indiana Pacers,38.5,34,38,under,+10000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Los Angeles Clippers,46.5,47,25,over,+650,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Los Angeles Lakers,47.5,42,30,under,+275,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Memphis Grizzlies,31.5,38,34,over,+15000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Miami Heat,43.5,40,32,under,+1800,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Milwaukee Bucks,49.5,46,26,under,+550,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Minnesota Timberwolves,29.5,23,49,under,+20000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,New Orleans Pelicans,36.5,31,41,under,+6500,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,New York Knicks,21.5,41,31,over,+50000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Oklahoma City Thunder,22.5,22,50,under,+20000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Orlando Magic,31.5,21,51,under,+20000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Philadelphia 76ers,43.5,49,23,over,+2000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Phoenix Suns,38.5,51,21,over,+4000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Portland Trail Blazers,40.5,42,30,over,+4000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Sacramento Kings,28.5,31,41,over,+25000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,San Antonio Spurs,28.5,33,39,over,+25000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Toronto Raptors,42.5,27,45,under,+3000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Utah Jazz,41.5,52,20,over,+4000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2020-21,2021,Washington Wizards,32.5,34,38,over,+10000,https://www.basketball-reference.com/leagues/NBA_2021_preseason_odds.html
+2021-22,2022,Atlanta Hawks,47.5,43,39,under,+3500,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Boston Celtics,45.5,51,31,over,+4000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Brooklyn Nets,56.5,44,38,under,+240,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Charlotte Hornets,38.5,43,39,over,+10000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Chicago Bulls,42.5,46,36,over,+6600,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Cleveland Cavaliers,26.5,44,38,over,+50000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Dallas Mavericks,48.5,52,30,over,+3000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Denver Nuggets,47.5,48,34,over,+2200,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Detroit Pistons,24.5,23,59,under,+50000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Golden State Warriors,48.5,53,29,over,+900,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Houston Rockets,27.5,20,62,under,+50000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Indiana Pacers,42.5,25,57,under,+10000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Los Angeles Clippers,45.5,42,40,under,+1600,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Los Angeles Lakers,52.5,33,49,under,+400,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Memphis Grizzlies,41.5,56,26,over,+10000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Miami Heat,48.5,53,29,over,+2500,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Milwaukee Bucks,54.5,51,31,under,+900,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Minnesota Timberwolves,35.5,46,36,over,+25000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,New Orleans Pelicans,39.5,36,46,under,+10000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,New York Knicks,41.5,37,45,under,+8000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Oklahoma City Thunder,23.5,24,58,over,+50000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Orlando Magic,22.5,22,60,under,+50000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Philadelphia 76ers,50.5,51,31,over,+1600,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Phoenix Suns,51.5,64,18,over,+1500,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Portland Trail Blazers,44.5,27,55,under,+5000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Sacramento Kings,36.5,30,52,under,+25000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,San Antonio Spurs,28.5,34,48,over,+30000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Toronto Raptors,35.5,48,34,over,+15000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Utah Jazz,52.5,49,33,under,+1600,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2021-22,2022,Washington Wizards,33.5,35,47,over,+15000,https://www.basketball-reference.com/leagues/NBA_2022_preseason_odds.html
+2022-23,2023,Atlanta Hawks,46.5,41,41,under,+5000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Boston Celtics,54.5,57,25,over,+500,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Brooklyn Nets,50.5,45,37,under,+700,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Charlotte Hornets,34.5,27,55,under,+15000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Chicago Bulls,41.5,40,42,under,+4000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Cleveland Cavaliers,46.5,51,31,over,+3000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Dallas Mavericks,48.5,38,44,under,+2500,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Denver Nuggets,51.5,53,29,over,+1800,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Detroit Pistons,29.5,17,65,under,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Golden State Warriors,52.5,44,38,under,+600,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Houston Rockets,23.5,22,60,under,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Indiana Pacers,24.5,35,47,over,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Los Angeles Clippers,52.5,44,38,under,+700,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Los Angeles Lakers,44.5,43,39,under,+1800,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Memphis Grizzlies,49.5,51,31,over,+2000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Miami Heat,49.5,44,38,under,+1600,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Milwaukee Bucks,53.5,58,24,over,+650,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Minnesota Timberwolves,49.5,42,40,under,+2800,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,New Orleans Pelicans,45.5,42,40,under,+4000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,New York Knicks,38.5,47,35,over,+6600,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Oklahoma City Thunder,23.5,40,42,over,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Orlando Magic,26.5,34,48,over,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Philadelphia 76ers,50.5,54,28,over,+1400,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Phoenix Suns,52.5,45,37,under,+1000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Portland Trail Blazers,39.5,33,49,under,+8000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Sacramento Kings,34.5,48,34,over,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,San Antonio Spurs,22.5,22,60,under,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Toronto Raptors,46.5,41,41,under,+4000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Utah Jazz,23.5,37,45,over,+50000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2022-23,2023,Washington Wizards,35.5,35,47,under,+25000,https://www.basketball-reference.com/leagues/NBA_2023_preseason_odds.html
+2023-24,2024,Atlanta Hawks,42.5,36,46,under,+8000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Boston Celtics,54.5,64,18,over,+450,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Brooklyn Nets,37.5,32,50,under,+12500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Charlotte Hornets,31.5,21,61,under,+50000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Chicago Bulls,37.5,39,43,over,+12500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Cleveland Cavaliers,50.5,48,34,under,+2500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Dallas Mavericks,45.5,50,32,over,+2500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Denver Nuggets,52.5,57,25,over,+450,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Detroit Pistons,28.5,14,68,under,+50000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Golden State Warriors,48.5,46,36,under,+1200,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Houston Rockets,31.5,41,41,over,+25000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Indiana Pacers,38.5,47,35,over,+25000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Los Angeles Clippers,46.5,51,31,over,+2200,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Los Angeles Lakers,47.5,47,35,under,+1500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Memphis Grizzlies,45.5,27,55,under,+2200,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Miami Heat,45.5,46,36,over,+1600,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Milwaukee Bucks,54.5,49,33,under,+600,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Minnesota Timberwolves,44.5,56,26,over,+6600,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,New Orleans Pelicans,44.5,49,33,over,+4000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,New York Knicks,45.5,50,32,over,+5000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Oklahoma City Thunder,44.5,57,25,over,+10000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Orlando Magic,37.5,47,35,over,+25000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Philadelphia 76ers,48.5,47,35,under,+1800,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Phoenix Suns,51.5,49,33,under,+600,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Portland Trail Blazers,28.5,21,61,under,+12500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Sacramento Kings,44.5,46,36,over,+3500,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,San Antonio Spurs,28.5,22,60,under,+15000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Toronto Raptors,36.5,25,57,under,+8000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Utah Jazz,35.5,31,51,under,+25000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2023-24,2024,Washington Wizards,24.5,15,67,under,+50000,https://www.basketball-reference.com/leagues/NBA_2024_preseason_odds.html
+2024-25,2025,Atlanta Hawks,36.5,40,42,over,+50000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Boston Celtics,58.5,61,21,over,+325,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Brooklyn Nets,19.5,26,56,over,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Charlotte Hornets,30.5,19,63,under,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Chicago Bulls,28.5,39,43,over,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Cleveland Cavaliers,48.5,64,18,over,+3500,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Dallas Mavericks,49.5,39,43,under,+1100,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Denver Nuggets,51.5,50,32,under,+1100,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Detroit Pistons,25.5,44,38,over,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Golden State Warriors,43.5,48,34,over,+4000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Houston Rockets,43.5,52,30,over,+8000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Indiana Pacers,46.5,50,32,over,+6600,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Los Angeles Clippers,35.5,50,32,over,+12500,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Los Angeles Lakers,43.5,50,32,over,+4000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Memphis Grizzlies,47.5,48,34,over,+3500,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Miami Heat,44.5,37,45,under,+5000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Milwaukee Bucks,49.5,48,34,under,+1400,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Minnesota Timberwolves,51.5,49,33,under,+1100,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,New Orleans Pelicans,46.5,21,61,under,+5000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,New York Knicks,53.5,51,31,under,+700,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Oklahoma City Thunder,57.5,68,14,over,+675,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Orlando Magic,47.5,41,41,under,+4000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Philadelphia 76ers,50.5,24,58,under,+1000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Phoenix Suns,48.5,36,46,under,+1500,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Portland Trail Blazers,21.5,36,46,over,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Sacramento Kings,46.5,40,42,under,+6600,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,San Antonio Spurs,35.5,34,48,under,+15000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Toronto Raptors,29.5,30,52,over,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Utah Jazz,28.5,17,65,under,+50000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2024-25,2025,Washington Wizards,20.5,18,64,under,+100000,https://www.basketball-reference.com/leagues/NBA_2025_preseason_odds.html
+2025-26,2026,Atlanta Hawks,46.5,46,36,under,+4000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Boston Celtics,41.5,56,26,over,+6000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Brooklyn Nets,19.5,20,62,over,+100000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Charlotte Hornets,27.5,44,38,over,+100000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Chicago Bulls,33.5,31,51,under,+50000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Cleveland Cavaliers,56.5,52,30,under,+750,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Dallas Mavericks,41.5,26,56,under,+3500,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Denver Nuggets,53.5,54,28,over,+550,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Detroit Pistons,46.5,60,22,over,+3300,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Golden State Warriors,47.5,37,45,under,+2500,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Houston Rockets,52.5,52,30,under,+1400,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Indiana Pacers,37.5,19,63,under,+10000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Los Angeles Clippers,49.5,42,40,under,+1800,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Los Angeles Lakers,46.5,53,29,over,+1600,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Memphis Grizzlies,39.5,25,57,under,+12500,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Miami Heat,37.5,43,39,over,+20000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Milwaukee Bucks,43.5,32,50,under,+5500,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Minnesota Timberwolves,49.5,49,33,under,+1300,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,New Orleans Pelicans,30.5,26,56,under,+30000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,New York Knicks,53.5,53,29,under,+900,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Oklahoma City Thunder,62.5,64,18,over,+240,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Orlando Magic,51.5,45,37,under,+1800,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Philadelphia 76ers,43.5,45,37,over,+4000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Phoenix Suns,30.5,45,37,over,+50000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Portland Trail Blazers,35.5,42,40,over,+50000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Sacramento Kings,35.5,22,60,under,+50000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,San Antonio Spurs,44.5,62,20,over,+6600,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Toronto Raptors,39.5,46,36,over,+10000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Utah Jazz,18.5,22,60,over,+100000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html
+2025-26,2026,Washington Wizards,20.5,17,65,under,+100000,https://www.basketball-reference.com/leagues/NBA_2026_preseason_odds.html

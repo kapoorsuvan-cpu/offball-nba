@@ -1,0 +1,112 @@
+[
+  {
+    "season": "2016-17",
+    "seasonEndYear": 2017,
+    "lassoAlpha": 0.5359821146546927,
+    "rankBlend": 0.6,
+    "temporalCvMaeWins": 7.918367377867312,
+    "groupedCvRmseWins": 9.733657256405117,
+    "validationSpreadRatio": 0.8206165294108801,
+    "predictionStdWins": 11.627881547525925,
+    "predictionRangeWins": 50.353646622578445
+  },
+  {
+    "season": "2017-18",
+    "seasonEndYear": 2018,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.41000000000000003,
+    "temporalCvMaeWins": 6.886540866710748,
+    "groupedCvRmseWins": 8.65796598470465,
+    "validationSpreadRatio": 0.8209969879463614,
+    "predictionStdWins": 10.00631839164995,
+    "predictionRangeWins": 42.36726225853653
+  },
+  {
+    "season": "2018-19",
+    "seasonEndYear": 2019,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.4,
+    "temporalCvMaeWins": 6.604642376879654,
+    "groupedCvRmseWins": 8.344930617695493,
+    "validationSpreadRatio": 0.8204980700481563,
+    "predictionStdWins": 10.241811787169745,
+    "predictionRangeWins": 41.438864812800986
+  },
+  {
+    "season": "2019-20",
+    "seasonEndYear": 2020,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.38,
+    "temporalCvMaeWins": 6.806666975690655,
+    "groupedCvRmseWins": 8.457800765849823,
+    "validationSpreadRatio": 0.8226801141969232,
+    "predictionStdWins": 9.628685764329536,
+    "predictionRangeWins": 35.474854584697994
+  },
+  {
+    "season": "2020-21",
+    "seasonEndYear": 2021,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.4,
+    "temporalCvMaeWins": 6.887407192476238,
+    "groupedCvRmseWins": 8.653081431975515,
+    "validationSpreadRatio": 0.8208688912141587,
+    "predictionStdWins": 9.741634956137794,
+    "predictionRangeWins": 37.11142235502643
+  },
+  {
+    "season": "2021-22",
+    "seasonEndYear": 2022,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.38,
+    "temporalCvMaeWins": 6.9672148355478924,
+    "groupedCvRmseWins": 8.915319301322072,
+    "validationSpreadRatio": 0.8202572582560401,
+    "predictionStdWins": 9.529225907256473,
+    "predictionRangeWins": 38.137417920017555
+  },
+  {
+    "season": "2022-23",
+    "seasonEndYear": 2023,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.38,
+    "temporalCvMaeWins": 7.060390735489409,
+    "groupedCvRmseWins": 8.996022602187466,
+    "validationSpreadRatio": 0.8222157857136929,
+    "predictionStdWins": 9.235112922470334,
+    "predictionRangeWins": 34.308688790578074
+  },
+  {
+    "season": "2023-24",
+    "seasonEndYear": 2024,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.35000000000000003,
+    "temporalCvMaeWins": 6.853323947366346,
+    "groupedCvRmseWins": 8.743054986162536,
+    "validationSpreadRatio": 0.8213418614621296,
+    "predictionStdWins": 8.719946477289737,
+    "predictionRangeWins": 34.40502721650684
+  },
+  {
+    "season": "2024-25",
+    "seasonEndYear": 2025,
+    "lassoAlpha": 0.6000763381800931,
+    "rankBlend": 0.4,
+    "temporalCvMaeWins": 6.932771236905307,
+    "groupedCvRmseWins": 8.808645669024708,
+    "validationSpreadRatio": 0.8208465406486313,
+    "predictionStdWins": 9.793955482949896,
+    "predictionRangeWins": 38.507807958693704
+  },
+  {
+    "season": "2025-26",
+    "seasonEndYear": 2026,
+    "lassoAlpha": 0.6349428024593587,
+    "rankBlend": 0.43,
+    "temporalCvMaeWins": 7.048090009399967,
+    "groupedCvRmseWins": 9.014743763395467,
+    "validationSpreadRatio": 0.8214641708957041,
+    "predictionStdWins": 9.85438948270398,
+    "predictionRangeWins": 38.882252542403336
+  }
+]

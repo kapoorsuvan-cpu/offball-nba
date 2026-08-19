@@ -1,0 +1,19 @@
+{
+  "bets": 300,
+  "settled_bets": 270,
+  "wins": 131,
+  "losses": 139,
+  "pushes": 0,
+  "voids": 30,
+  "win_rate": 0.48518518518518516,
+  "win_rate_wilson_95_low": 0.4261986313451107,
+  "win_rate_wilson_95_high": 0.5445873846421972,
+  "assumed_breakeven_win_rate": 0.5238095238095238,
+  "one_sided_binomial_p_vs_assumed_breakeven": 0.9084490299003221,
+  "amount_staked": 3000.0,
+  "settled_stake": 2700.0,
+  "net_profit": -199.09090909090892,
+  "roi_on_settled_stake": -0.07373737373737367,
+  "overall_model_mae_wins": 7.010148103366886,
+  "overall_market_mae_wins": 6.531723038266667
+}

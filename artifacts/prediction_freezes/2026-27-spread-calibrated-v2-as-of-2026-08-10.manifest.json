@@ -1,0 +1,17 @@
+{
+  "season": "2026-27",
+  "modelVersion": "spread-calibrated-v2",
+  "frozenAsOf": "2026-08-10",
+  "teamCount": 30,
+  "predictionMinWins": 22.339811789427483,
+  "predictionMaxWins": 59.87494107995961,
+  "predictionRangeWins": 37.535129290532126,
+  "predictionFile": "artifacts/prediction_freezes/2026-27-spread-calibrated-v2-as-of-2026-08-10.csv",
+  "predictionSha256": "223d14141609e63120e55ec36977c93e9625c0d0fb492fe92fec3facf3a41173",
+  "modelFile": "artifacts/rank_calibrated_lasso/selected_model.joblib",
+  "modelSha256": "2558bea6060745bc09eaeca4fbc2cda48169135fecb52d7167bf868710e19899",
+  "historyFile": "data/nba_2k_team_seasons_backtest.csv",
+  "historySha256": "75a09f429b61674fd09112e7745f06674e2a82ae992df82a974b51a8e5c7a3d6",
+  "appDataSha256": "4545bd448669f10c7d3b88acef4395f39ea92af15dfa73e016f62bea1c8cc3f2",
+  "evaluationRule": "Do not alter this file. Compare predicted_wins with final 2026-27 normalized wins after the regular season."
+}

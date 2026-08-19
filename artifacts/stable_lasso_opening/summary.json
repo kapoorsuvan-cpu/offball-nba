@@ -1,0 +1,86 @@
+{
+  "selectedModel": "stable_lasso_three_tier",
+  "selectionRule": "Lowest expanding-window MAE; RMSE breaks ties.",
+  "validationYears": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "holdoutYears": [
+    2025,
+    2026
+  ],
+  "alpha": 0.1259342366038379,
+  "candidateFeatureCount": 4,
+  "retainedFeatureCount": 4,
+  "features": [
+    {
+      "feature": "relative_star_mean",
+      "finalCoefficientWins": 4.100634048956212,
+      "expandingMeanCoefficientWins": 4.454081964988512,
+      "expandingCoefficientStdWins": 0.3525545536628579,
+      "signConsistency": 1.0,
+      "retained": true
+    },
+    {
+      "feature": "relative_starter_core_mean",
+      "finalCoefficientWins": 2.32516173222492,
+      "expandingMeanCoefficientWins": 1.9781717393657963,
+      "expandingCoefficientStdWins": 0.10849184427981853,
+      "signConsistency": 1.0,
+      "retained": true
+    },
+    {
+      "feature": "relative_bench_mean",
+      "finalCoefficientWins": 0.49485422449073774,
+      "expandingMeanCoefficientWins": 1.031316494555059,
+      "expandingCoefficientStdWins": 0.14365733663602262,
+      "signConsistency": 1.0,
+      "retained": true
+    },
+    {
+      "feature": "prior_wins_1",
+      "finalCoefficientWins": 2.769243120712511,
+      "expandingMeanCoefficientWins": 3.1261505424943743,
+      "expandingCoefficientStdWins": 0.1830640057759619,
+      "signConsistency": 1.0,
+      "retained": true
+    }
+  ],
+  "train": {
+    "maeWins": 7.031236598997351,
+    "rmseWins": 8.726013061033703,
+    "r2": 0.47948210107177147,
+    "predictionStdWins": 8.221048289117375,
+    "predictionRangeWins": 48.82594391343533
+  },
+  "expandingValidation": {
+    "maeWins": 7.053740900676218,
+    "rmseWins": 8.832838561477304,
+    "r2": 0.43439803795413867,
+    "predictionStdWins": 8.429107433629355,
+    "predictionRangeWins": 42.0385949843072
+  },
+  "holdout": {
+    "maeWins": 8.434205943771513,
+    "rmseWins": 11.078527425197093,
+    "r2": 0.31369745027077933,
+    "predictionStdWins": 9.063166525056523,
+    "predictionRangeWins": 36.5543770264823
+  },
+  "trainValidationRmseGapWins": 0.10682550044360184,
+  "currentPredictionStdWins": 7.972259026469455,
+  "currentPredictionRangeWins": 29.78626001799954,
+  "currentPredictionMin": {
+    "team": "Brooklyn Nets",
+    "predicted_wins": 25.646276676579113
+  },
+  "currentPredictionMax": {
+    "team": "Philadelphia 76ers",
+    "predicted_wins": 55.43253669457865
+  }
+}

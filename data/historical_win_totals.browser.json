@@ -1,0 +1,2102 @@
+[
+  {
+    "championship_odds": "-128",
+    "result_text": "67-15 (over)",
+    "season_end_year": 2017,
+    "team": "Golden State Warriors",
+    "win_total_line": "66.5"
+  },
+  {
+    "championship_odds": "+385",
+    "result_text": "51-31 (under)",
+    "season_end_year": 2017,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "56.5"
+  },
+  {
+    "championship_odds": "+925",
+    "result_text": "61-21 (over)",
+    "season_end_year": 2017,
+    "team": "San Antonio Spurs",
+    "win_total_line": "57.5"
+  },
+  {
+    "championship_odds": "+2900",
+    "result_text": "53-29 (over)",
+    "season_end_year": 2017,
+    "team": "Boston Celtics",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "51-31 (under)",
+    "season_end_year": 2017,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+5500",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2017,
+    "team": "Toronto Raptors",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+6000",
+    "result_text": "47-35 (over)",
+    "season_end_year": 2017,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "45.0"
+  },
+  {
+    "championship_odds": "+7500",
+    "result_text": "31-51 (under)",
+    "season_end_year": 2017,
+    "team": "New York Knicks",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "42-40 (under)",
+    "season_end_year": 2017,
+    "team": "Indiana Pacers",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+8800",
+    "result_text": "43-39 (over)",
+    "season_end_year": 2017,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+9000",
+    "result_text": "41-41 (over)",
+    "season_end_year": 2017,
+    "team": "Chicago Bulls",
+    "win_total_line": "39.0"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2017,
+    "team": "Utah Jazz",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "43-39 (under)",
+    "season_end_year": 2017,
+    "team": "Atlanta Hawks",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "31-51 (under)",
+    "season_end_year": 2017,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+13000",
+    "result_text": "41-41 (under)",
+    "season_end_year": 2017,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+14000",
+    "result_text": "37-45 (under)",
+    "season_end_year": 2017,
+    "team": "Detroit Pistons",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+14500",
+    "result_text": "34-48 (under)",
+    "season_end_year": 2017,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "36.5"
+  },
+  {
+    "championship_odds": "+16000",
+    "result_text": "49-33 (over)",
+    "season_end_year": 2017,
+    "team": "Washington Wizards",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+16000",
+    "result_text": "55-27 (over)",
+    "season_end_year": 2017,
+    "team": "Houston Rockets",
+    "win_total_line": "44.0"
+  },
+  {
+    "championship_odds": "+17500",
+    "result_text": "41-41 (over)",
+    "season_end_year": 2017,
+    "team": "Miami Heat",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+18000",
+    "result_text": "42-40 (over)",
+    "season_end_year": 2017,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+22500",
+    "result_text": "29-53 (under)",
+    "season_end_year": 2017,
+    "team": "Orlando Magic",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+39000",
+    "result_text": "26-56 (over)",
+    "season_end_year": 2017,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "24.5"
+  },
+  {
+    "championship_odds": "+39000",
+    "result_text": "33-49 (under)",
+    "season_end_year": 2017,
+    "team": "Dallas Mavericks",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "28-54 (over)",
+    "season_end_year": 2017,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "32-50 (under)",
+    "season_end_year": 2017,
+    "team": "Sacramento Kings",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "40-42 (over)",
+    "season_end_year": 2017,
+    "team": "Denver Nuggets",
+    "win_total_line": "37.0"
+  },
+  {
+    "championship_odds": "+55000",
+    "result_text": "36-46 (under)",
+    "season_end_year": 2017,
+    "team": "Charlotte Hornets",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+85000",
+    "result_text": "24-58 (under)",
+    "season_end_year": 2017,
+    "team": "Phoenix Suns",
+    "win_total_line": "29.5"
+  },
+  {
+    "championship_odds": "+135000",
+    "result_text": "20-62 (under)",
+    "season_end_year": 2017,
+    "team": "Brooklyn Nets",
+    "win_total_line": "21.5"
+  },
+  {
+    "championship_odds": "-187",
+    "result_text": "58-24 (under)",
+    "season_end_year": 2018,
+    "team": "Golden State Warriors",
+    "win_total_line": "67.5"
+  },
+  {
+    "championship_odds": "+515",
+    "result_text": "50-32 (under)",
+    "season_end_year": 2018,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+1200",
+    "result_text": "55-27 (over)",
+    "season_end_year": 2018,
+    "team": "Boston Celtics",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "47-35 (under)",
+    "season_end_year": 2018,
+    "team": "San Antonio Spurs",
+    "win_total_line": "55.0"
+  },
+  {
+    "championship_odds": "+2150",
+    "result_text": "48-34 (under)",
+    "season_end_year": 2018,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+2150",
+    "result_text": "65-17 (over)",
+    "season_end_year": 2018,
+    "team": "Houston Rockets",
+    "win_total_line": "55.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "47-35 (under)",
+    "season_end_year": 2018,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "44-38 (under)",
+    "season_end_year": 2018,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+9000",
+    "result_text": "43-39 (under)",
+    "season_end_year": 2018,
+    "team": "Washington Wizards",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "59-23 (over)",
+    "season_end_year": 2018,
+    "team": "Toronto Raptors",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+19000",
+    "result_text": "42-40 (under)",
+    "season_end_year": 2018,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+19000",
+    "result_text": "52-30 (over)",
+    "season_end_year": 2018,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "46-36 (over)",
+    "season_end_year": 2018,
+    "team": "Denver Nuggets",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+22000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2018,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+24000",
+    "result_text": "44-38 (over)",
+    "season_end_year": 2018,
+    "team": "Miami Heat",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2018,
+    "team": "Utah Jazz",
+    "win_total_line": "40.5"
+  },
+  {
+    "championship_odds": "+30000",
+    "result_text": "35-47 (over)",
+    "season_end_year": 2018,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+31500",
+    "result_text": "49-33 (over)",
+    "season_end_year": 2018,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+37000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2018,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "24-58 (under)",
+    "season_end_year": 2018,
+    "team": "Dallas Mavericks",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "36-46 (under)",
+    "season_end_year": 2018,
+    "team": "Charlotte Hornets",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+63000",
+    "result_text": "39-43 (over)",
+    "season_end_year": 2018,
+    "team": "Detroit Pistons",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "29-53 (under)",
+    "season_end_year": 2018,
+    "team": "New York Knicks",
+    "win_total_line": "30.5"
+  },
+  {
+    "championship_odds": "+125000",
+    "result_text": "21-61 (under)",
+    "season_end_year": 2018,
+    "team": "Phoenix Suns",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+125000",
+    "result_text": "27-55 (under)",
+    "season_end_year": 2018,
+    "team": "Sacramento Kings",
+    "win_total_line": "27.5"
+  },
+  {
+    "championship_odds": "+125000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2018,
+    "team": "Indiana Pacers",
+    "win_total_line": "31.5"
+  },
+  {
+    "championship_odds": "+200000",
+    "result_text": "24-58 (under)",
+    "season_end_year": 2018,
+    "team": "Atlanta Hawks",
+    "win_total_line": "25.5"
+  },
+  {
+    "championship_odds": "+250000",
+    "result_text": "25-57 (under)",
+    "season_end_year": 2018,
+    "team": "Orlando Magic",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+250000",
+    "result_text": "28-54 (over)",
+    "season_end_year": 2018,
+    "team": "Brooklyn Nets",
+    "win_total_line": "27.5"
+  },
+  {
+    "championship_odds": "+250000",
+    "result_text": "27-55 (over)",
+    "season_end_year": 2018,
+    "team": "Chicago Bulls",
+    "win_total_line": "22.0"
+  },
+  {
+    "championship_odds": "-168",
+    "result_text": "57-25 (under)",
+    "season_end_year": 2019,
+    "team": "Golden State Warriors",
+    "win_total_line": "62.5"
+  },
+  {
+    "championship_odds": "+620",
+    "result_text": "49-33 (under)",
+    "season_end_year": 2019,
+    "team": "Boston Celtics",
+    "win_total_line": "59.0"
+  },
+  {
+    "championship_odds": "+1000",
+    "result_text": "53-29 (under)",
+    "season_end_year": 2019,
+    "team": "Houston Rockets",
+    "win_total_line": "56.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "37-45 (under)",
+    "season_end_year": 2019,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+1850",
+    "result_text": "58-24 (over)",
+    "season_end_year": 2019,
+    "team": "Toronto Raptors",
+    "win_total_line": "55.5"
+  },
+  {
+    "championship_odds": "+2000",
+    "result_text": "51-31 (under)",
+    "season_end_year": 2019,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+3800",
+    "result_text": "49-33 (over)",
+    "season_end_year": 2019,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "50-32 (over)",
+    "season_end_year": 2019,
+    "team": "Utah Jazz",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2019,
+    "team": "San Antonio Spurs",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "33-49 (under)",
+    "season_end_year": 2019,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "60-22 (over)",
+    "season_end_year": 2019,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "48.0"
+  },
+  {
+    "championship_odds": "+11000",
+    "result_text": "32-50 (under)",
+    "season_end_year": 2019,
+    "team": "Washington Wizards",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2019,
+    "team": "Indiana Pacers",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "54-28 (over)",
+    "season_end_year": 2019,
+    "team": "Denver Nuggets",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "36-46 (under)",
+    "season_end_year": 2019,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+30000",
+    "result_text": "53-29 (over)",
+    "season_end_year": 2019,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "42.0"
+  },
+  {
+    "championship_odds": "+35000",
+    "result_text": "39-43 (under)",
+    "season_end_year": 2019,
+    "team": "Miami Heat",
+    "win_total_line": "43.0"
+  },
+  {
+    "championship_odds": "+35000",
+    "result_text": "41-41 (over)",
+    "season_end_year": 2019,
+    "team": "Detroit Pistons",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+35000",
+    "result_text": "17-65 (under)",
+    "season_end_year": 2019,
+    "team": "New York Knicks",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+35000",
+    "result_text": "33-49 (under)",
+    "season_end_year": 2019,
+    "team": "Dallas Mavericks",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+40000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2019,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "37.0"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "19-63 (under)",
+    "season_end_year": 2019,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "30.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2019,
+    "team": "Chicago Bulls",
+    "win_total_line": "30.0"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "39-43 (over)",
+    "season_end_year": 2019,
+    "team": "Charlotte Hornets",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+65000",
+    "result_text": "33-49 (under)",
+    "season_end_year": 2019,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+75000",
+    "result_text": "42-40 (over)",
+    "season_end_year": 2019,
+    "team": "Orlando Magic",
+    "win_total_line": "31.0"
+  },
+  {
+    "championship_odds": "+75000",
+    "result_text": "19-63 (under)",
+    "season_end_year": 2019,
+    "team": "Phoenix Suns",
+    "win_total_line": "29.0"
+  },
+  {
+    "championship_odds": "+125000",
+    "result_text": "42-40 (over)",
+    "season_end_year": 2019,
+    "team": "Brooklyn Nets",
+    "win_total_line": "32.0"
+  },
+  {
+    "championship_odds": "+150000",
+    "result_text": "29-53 (over)",
+    "season_end_year": 2019,
+    "team": "Atlanta Hawks",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+200000",
+    "result_text": "39-43 (over)",
+    "season_end_year": 2019,
+    "team": "Sacramento Kings",
+    "win_total_line": "26.0"
+  },
+  {
+    "championship_odds": "+425",
+    "result_text": "49-23 (under)",
+    "season_end_year": 2020,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+450",
+    "result_text": "52-19 (over)",
+    "season_end_year": 2020,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+550",
+    "result_text": "56-17 (under)",
+    "season_end_year": 2020,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "57.5"
+  },
+  {
+    "championship_odds": "+700",
+    "result_text": "44-28 (under)",
+    "season_end_year": 2020,
+    "team": "Houston Rockets",
+    "win_total_line": "54.0"
+  },
+  {
+    "championship_odds": "+775",
+    "result_text": "43-30 (under)",
+    "season_end_year": 2020,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "54.5"
+  },
+  {
+    "championship_odds": "+950",
+    "result_text": "15-50 (under)",
+    "season_end_year": 2020,
+    "team": "Golden State Warriors",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+1300",
+    "result_text": "44-28 (under)",
+    "season_end_year": 2020,
+    "team": "Utah Jazz",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+2000",
+    "result_text": "46-27 (under)",
+    "season_end_year": 2020,
+    "team": "Denver Nuggets",
+    "win_total_line": "53.0"
+  },
+  {
+    "championship_odds": "+2900",
+    "result_text": "48-24 (under)",
+    "season_end_year": 2020,
+    "team": "Boston Celtics",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "35-39 (under)",
+    "season_end_year": 2020,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "45-28 (under)",
+    "season_end_year": 2020,
+    "team": "Indiana Pacers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+5500",
+    "result_text": "35-37 (under)",
+    "season_end_year": 2020,
+    "team": "Brooklyn Nets",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+5500",
+    "result_text": "53-19 (over)",
+    "season_end_year": 2020,
+    "team": "Toronto Raptors",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+6000",
+    "result_text": "44-29 (over)",
+    "season_end_year": 2020,
+    "team": "Miami Heat",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+6000",
+    "result_text": "32-39 (under)",
+    "season_end_year": 2020,
+    "team": "San Antonio Spurs",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+10500",
+    "result_text": "43-32 (over)",
+    "season_end_year": 2020,
+    "team": "Dallas Mavericks",
+    "win_total_line": "40.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "30-42 (under)",
+    "season_end_year": 2020,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "31-41 (under)",
+    "season_end_year": 2020,
+    "team": "Sacramento Kings",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "33-40 (under)",
+    "season_end_year": 2020,
+    "team": "Orlando Magic",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "20-47 (under)",
+    "season_end_year": 2020,
+    "team": "Atlanta Hawks",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "44-28 (over)",
+    "season_end_year": 2020,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "32.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "20-46 (under)",
+    "season_end_year": 2020,
+    "team": "Detroit Pistons",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+42500",
+    "result_text": "22-43 (under)",
+    "season_end_year": 2020,
+    "team": "Chicago Bulls",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "19-45 (under)",
+    "season_end_year": 2020,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "34-39 (over)",
+    "season_end_year": 2020,
+    "team": "Phoenix Suns",
+    "win_total_line": "29.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "34-39 (over)",
+    "season_end_year": 2020,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "27.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "21-45 (under)",
+    "season_end_year": 2020,
+    "team": "New York Knicks",
+    "win_total_line": "26.5"
+  },
+  {
+    "championship_odds": "+125000",
+    "result_text": "25-47 (under)",
+    "season_end_year": 2020,
+    "team": "Washington Wizards",
+    "win_total_line": "27.0"
+  },
+  {
+    "championship_odds": "+150000",
+    "result_text": "19-46 (under)",
+    "season_end_year": 2020,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "24.5"
+  },
+  {
+    "championship_odds": "+200000",
+    "result_text": "23-42 (under)",
+    "season_end_year": 2020,
+    "team": "Charlotte Hornets",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+275",
+    "result_text": "42-30 (under)",
+    "season_end_year": 2021,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+550",
+    "result_text": "46-26 (under)",
+    "season_end_year": 2021,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+600",
+    "result_text": "48-24 (over)",
+    "season_end_year": 2021,
+    "team": "Brooklyn Nets",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+650",
+    "result_text": "47-25 (over)",
+    "season_end_year": 2021,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+1400",
+    "result_text": "36-36 (under)",
+    "season_end_year": 2021,
+    "team": "Boston Celtics",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "40-32 (under)",
+    "season_end_year": 2021,
+    "team": "Miami Heat",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "47-25 (over)",
+    "season_end_year": 2021,
+    "team": "Denver Nuggets",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+2000",
+    "result_text": "49-23 (over)",
+    "season_end_year": 2021,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "42-30 (under)",
+    "season_end_year": 2021,
+    "team": "Dallas Mavericks",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "39-33 (over)",
+    "season_end_year": 2021,
+    "team": "Golden State Warriors",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+3000",
+    "result_text": "27-45 (under)",
+    "season_end_year": 2021,
+    "team": "Toronto Raptors",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "52-20 (over)",
+    "season_end_year": 2021,
+    "team": "Utah Jazz",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "42-30 (over)",
+    "season_end_year": 2021,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "40.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "51-21 (over)",
+    "season_end_year": 2021,
+    "team": "Phoenix Suns",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "17-55 (under)",
+    "season_end_year": 2021,
+    "team": "Houston Rockets",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+6500",
+    "result_text": "31-41 (under)",
+    "season_end_year": 2021,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "36.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "34-38 (over)",
+    "season_end_year": 2021,
+    "team": "Washington Wizards",
+    "win_total_line": "32.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "41-31 (over)",
+    "season_end_year": 2021,
+    "team": "Atlanta Hawks",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "34-38 (under)",
+    "season_end_year": 2021,
+    "team": "Indiana Pacers",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "38-34 (over)",
+    "season_end_year": 2021,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "31.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "23-49 (under)",
+    "season_end_year": 2021,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "29.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "22-50 (under)",
+    "season_end_year": 2021,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "22.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "21-51 (under)",
+    "season_end_year": 2021,
+    "team": "Orlando Magic",
+    "win_total_line": "31.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "31-41 (over)",
+    "season_end_year": 2021,
+    "team": "Chicago Bulls",
+    "win_total_line": "29.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "33-39 (over)",
+    "season_end_year": 2021,
+    "team": "Charlotte Hornets",
+    "win_total_line": "26.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "31-41 (over)",
+    "season_end_year": 2021,
+    "team": "Sacramento Kings",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "33-39 (over)",
+    "season_end_year": 2021,
+    "team": "San Antonio Spurs",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "41-31 (over)",
+    "season_end_year": 2021,
+    "team": "New York Knicks",
+    "win_total_line": "21.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "22-50 (under)",
+    "season_end_year": 2021,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "22.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "20-52 (under)",
+    "season_end_year": 2021,
+    "team": "Detroit Pistons",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+240",
+    "result_text": "44-38 (under)",
+    "season_end_year": 2022,
+    "team": "Brooklyn Nets",
+    "win_total_line": "56.5"
+  },
+  {
+    "championship_odds": "+400",
+    "result_text": "33-49 (under)",
+    "season_end_year": 2022,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+900",
+    "result_text": "51-31 (under)",
+    "season_end_year": 2022,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "54.5"
+  },
+  {
+    "championship_odds": "+900",
+    "result_text": "53-29 (over)",
+    "season_end_year": 2022,
+    "team": "Golden State Warriors",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+1500",
+    "result_text": "64-18 (over)",
+    "season_end_year": 2022,
+    "team": "Phoenix Suns",
+    "win_total_line": "51.5"
+  },
+  {
+    "championship_odds": "+1600",
+    "result_text": "49-33 (under)",
+    "season_end_year": 2022,
+    "team": "Utah Jazz",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+1600",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2022,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+1600",
+    "result_text": "42-40 (under)",
+    "season_end_year": 2022,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+2200",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2022,
+    "team": "Denver Nuggets",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "53-29 (over)",
+    "season_end_year": 2022,
+    "team": "Miami Heat",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+3000",
+    "result_text": "52-30 (over)",
+    "season_end_year": 2022,
+    "team": "Dallas Mavericks",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "43-39 (under)",
+    "season_end_year": 2022,
+    "team": "Atlanta Hawks",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2022,
+    "team": "Boston Celtics",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "27-55 (under)",
+    "season_end_year": 2022,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+6600",
+    "result_text": "46-36 (over)",
+    "season_end_year": 2022,
+    "team": "Chicago Bulls",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "37-45 (under)",
+    "season_end_year": 2022,
+    "team": "New York Knicks",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "56-26 (over)",
+    "season_end_year": 2022,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "25-57 (under)",
+    "season_end_year": 2022,
+    "team": "Indiana Pacers",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "36-46 (under)",
+    "season_end_year": 2022,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "43-39 (over)",
+    "season_end_year": 2022,
+    "team": "Charlotte Hornets",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "35-47 (over)",
+    "season_end_year": 2022,
+    "team": "Washington Wizards",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2022,
+    "team": "Toronto Raptors",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "30-52 (under)",
+    "season_end_year": 2022,
+    "team": "Sacramento Kings",
+    "win_total_line": "36.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "46-36 (over)",
+    "season_end_year": 2022,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+30000",
+    "result_text": "34-48 (over)",
+    "season_end_year": 2022,
+    "team": "San Antonio Spurs",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "44-38 (over)",
+    "season_end_year": 2022,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "26.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2022,
+    "team": "Orlando Magic",
+    "win_total_line": "22.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "24-58 (over)",
+    "season_end_year": 2022,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "23-59 (under)",
+    "season_end_year": 2022,
+    "team": "Detroit Pistons",
+    "win_total_line": "24.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "20-62 (under)",
+    "season_end_year": 2022,
+    "team": "Houston Rockets",
+    "win_total_line": "27.5"
+  },
+  {
+    "championship_odds": "+500",
+    "result_text": "57-25 (over)",
+    "season_end_year": 2023,
+    "team": "Boston Celtics",
+    "win_total_line": "54.5"
+  },
+  {
+    "championship_odds": "+600",
+    "result_text": "44-38 (under)",
+    "season_end_year": 2023,
+    "team": "Golden State Warriors",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+650",
+    "result_text": "58-24 (over)",
+    "season_end_year": 2023,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+700",
+    "result_text": "45-37 (under)",
+    "season_end_year": 2023,
+    "team": "Brooklyn Nets",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+700",
+    "result_text": "44-38 (under)",
+    "season_end_year": 2023,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+1000",
+    "result_text": "45-37 (under)",
+    "season_end_year": 2023,
+    "team": "Phoenix Suns",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+1400",
+    "result_text": "54-28 (over)",
+    "season_end_year": 2023,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+1600",
+    "result_text": "44-38 (under)",
+    "season_end_year": 2023,
+    "team": "Miami Heat",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "53-29 (over)",
+    "season_end_year": 2023,
+    "team": "Denver Nuggets",
+    "win_total_line": "51.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "43-39 (under)",
+    "season_end_year": 2023,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+2000",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2023,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "38-44 (under)",
+    "season_end_year": 2023,
+    "team": "Dallas Mavericks",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+2800",
+    "result_text": "42-40 (under)",
+    "season_end_year": 2023,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+3000",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2023,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "41-41 (under)",
+    "season_end_year": 2023,
+    "team": "Toronto Raptors",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "40-42 (under)",
+    "season_end_year": 2023,
+    "team": "Chicago Bulls",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "42-40 (under)",
+    "season_end_year": 2023,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "41-41 (under)",
+    "season_end_year": 2023,
+    "team": "Atlanta Hawks",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+6600",
+    "result_text": "47-35 (over)",
+    "season_end_year": 2023,
+    "team": "New York Knicks",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "33-49 (under)",
+    "season_end_year": 2023,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "27-55 (under)",
+    "season_end_year": 2023,
+    "team": "Charlotte Hornets",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "35-47 (under)",
+    "season_end_year": 2023,
+    "team": "Washington Wizards",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "17-65 (under)",
+    "season_end_year": 2023,
+    "team": "Detroit Pistons",
+    "win_total_line": "29.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "40-42 (over)",
+    "season_end_year": 2023,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "34-48 (over)",
+    "season_end_year": 2023,
+    "team": "Orlando Magic",
+    "win_total_line": "26.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "35-47 (over)",
+    "season_end_year": 2023,
+    "team": "Indiana Pacers",
+    "win_total_line": "24.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2023,
+    "team": "Sacramento Kings",
+    "win_total_line": "34.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2023,
+    "team": "San Antonio Spurs",
+    "win_total_line": "22.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2023,
+    "team": "Houston Rockets",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "37-45 (over)",
+    "season_end_year": 2023,
+    "team": "Utah Jazz",
+    "win_total_line": "23.5"
+  },
+  {
+    "championship_odds": "+450",
+    "result_text": "64-18 (over)",
+    "season_end_year": 2024,
+    "team": "Boston Celtics",
+    "win_total_line": "54.5"
+  },
+  {
+    "championship_odds": "+450",
+    "result_text": "57-25 (over)",
+    "season_end_year": 2024,
+    "team": "Denver Nuggets",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+600",
+    "result_text": "49-33 (under)",
+    "season_end_year": 2024,
+    "team": "Phoenix Suns",
+    "win_total_line": "51.5"
+  },
+  {
+    "championship_odds": "+600",
+    "result_text": "49-33 (under)",
+    "season_end_year": 2024,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "54.5"
+  },
+  {
+    "championship_odds": "+1200",
+    "result_text": "46-36 (under)",
+    "season_end_year": 2024,
+    "team": "Golden State Warriors",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+1500",
+    "result_text": "47-35 (under)",
+    "season_end_year": 2024,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+1600",
+    "result_text": "46-36 (over)",
+    "season_end_year": 2024,
+    "team": "Miami Heat",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "47-35 (under)",
+    "season_end_year": 2024,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+2200",
+    "result_text": "51-31 (over)",
+    "season_end_year": 2024,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+2200",
+    "result_text": "27-55 (under)",
+    "season_end_year": 2024,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "50-32 (over)",
+    "season_end_year": 2024,
+    "team": "Dallas Mavericks",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "48-34 (under)",
+    "season_end_year": 2024,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "46-36 (over)",
+    "season_end_year": 2024,
+    "team": "Sacramento Kings",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "49-33 (over)",
+    "season_end_year": 2024,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "50-32 (over)",
+    "season_end_year": 2024,
+    "team": "New York Knicks",
+    "win_total_line": "45.5"
+  },
+  {
+    "championship_odds": "+6600",
+    "result_text": "56-26 (over)",
+    "season_end_year": 2024,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "36-46 (under)",
+    "season_end_year": 2024,
+    "team": "Atlanta Hawks",
+    "win_total_line": "42.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "25-57 (under)",
+    "season_end_year": 2024,
+    "team": "Toronto Raptors",
+    "win_total_line": "36.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "57-25 (over)",
+    "season_end_year": 2024,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "39-43 (over)",
+    "season_end_year": 2024,
+    "team": "Chicago Bulls",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "32-50 (under)",
+    "season_end_year": 2024,
+    "team": "Brooklyn Nets",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "21-61 (under)",
+    "season_end_year": 2024,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2024,
+    "team": "San Antonio Spurs",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "31-51 (under)",
+    "season_end_year": 2024,
+    "team": "Utah Jazz",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "47-35 (over)",
+    "season_end_year": 2024,
+    "team": "Orlando Magic",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "47-35 (over)",
+    "season_end_year": 2024,
+    "team": "Indiana Pacers",
+    "win_total_line": "38.5"
+  },
+  {
+    "championship_odds": "+25000",
+    "result_text": "41-41 (over)",
+    "season_end_year": 2024,
+    "team": "Houston Rockets",
+    "win_total_line": "31.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "15-67 (under)",
+    "season_end_year": 2024,
+    "team": "Washington Wizards",
+    "win_total_line": "24.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "21-61 (under)",
+    "season_end_year": 2024,
+    "team": "Charlotte Hornets",
+    "win_total_line": "31.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "14-68 (under)",
+    "season_end_year": 2024,
+    "team": "Detroit Pistons",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+325",
+    "result_text": "61-21 (over)",
+    "season_end_year": 2025,
+    "team": "Boston Celtics",
+    "win_total_line": "58.5"
+  },
+  {
+    "championship_odds": "+675",
+    "result_text": "68-14 (over)",
+    "season_end_year": 2025,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "57.5"
+  },
+  {
+    "championship_odds": "+700",
+    "result_text": "51-31 (under)",
+    "season_end_year": 2025,
+    "team": "New York Knicks",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+1000",
+    "result_text": "24-58 (under)",
+    "season_end_year": 2025,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "50.5"
+  },
+  {
+    "championship_odds": "+1100",
+    "result_text": "39-43 (under)",
+    "season_end_year": 2025,
+    "team": "Dallas Mavericks",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+1100",
+    "result_text": "50-32 (under)",
+    "season_end_year": 2025,
+    "team": "Denver Nuggets",
+    "win_total_line": "51.5"
+  },
+  {
+    "championship_odds": "+1100",
+    "result_text": "49-33 (under)",
+    "season_end_year": 2025,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "51.5"
+  },
+  {
+    "championship_odds": "+1400",
+    "result_text": "48-34 (under)",
+    "season_end_year": 2025,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+1500",
+    "result_text": "36-46 (under)",
+    "season_end_year": 2025,
+    "team": "Phoenix Suns",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "64-18 (over)",
+    "season_end_year": 2025,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "48.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2025,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "41-41 (under)",
+    "season_end_year": 2025,
+    "team": "Orlando Magic",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "48-34 (over)",
+    "season_end_year": 2025,
+    "team": "Golden State Warriors",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "50-32 (over)",
+    "season_end_year": 2025,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "37-45 (under)",
+    "season_end_year": 2025,
+    "team": "Miami Heat",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+5000",
+    "result_text": "21-61 (under)",
+    "season_end_year": 2025,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+6600",
+    "result_text": "50-32 (over)",
+    "season_end_year": 2025,
+    "team": "Indiana Pacers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+6600",
+    "result_text": "40-42 (under)",
+    "season_end_year": 2025,
+    "team": "Sacramento Kings",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+8000",
+    "result_text": "52-30 (over)",
+    "season_end_year": 2025,
+    "team": "Houston Rockets",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "50-32 (over)",
+    "season_end_year": 2025,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+15000",
+    "result_text": "34-48 (under)",
+    "season_end_year": 2025,
+    "team": "San Antonio Spurs",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "40-42 (over)",
+    "season_end_year": 2025,
+    "team": "Atlanta Hawks",
+    "win_total_line": "36.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "17-65 (under)",
+    "season_end_year": 2025,
+    "team": "Utah Jazz",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "44-38 (over)",
+    "season_end_year": 2025,
+    "team": "Detroit Pistons",
+    "win_total_line": "25.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "19-63 (under)",
+    "season_end_year": 2025,
+    "team": "Charlotte Hornets",
+    "win_total_line": "30.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "39-43 (over)",
+    "season_end_year": 2025,
+    "team": "Chicago Bulls",
+    "win_total_line": "28.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "26-56 (over)",
+    "season_end_year": 2025,
+    "team": "Brooklyn Nets",
+    "win_total_line": "19.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "36-46 (over)",
+    "season_end_year": 2025,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "21.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "30-52 (over)",
+    "season_end_year": 2025,
+    "team": "Toronto Raptors",
+    "win_total_line": "29.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "18-64 (under)",
+    "season_end_year": 2025,
+    "team": "Washington Wizards",
+    "win_total_line": "20.5"
+  },
+  {
+    "championship_odds": "+240",
+    "result_text": "64-18 (over)",
+    "season_end_year": 2026,
+    "team": "Oklahoma City Thunder",
+    "win_total_line": "62.5"
+  },
+  {
+    "championship_odds": "+550",
+    "result_text": "54-28 (over)",
+    "season_end_year": 2026,
+    "team": "Denver Nuggets",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+750",
+    "result_text": "52-30 (under)",
+    "season_end_year": 2026,
+    "team": "Cleveland Cavaliers",
+    "win_total_line": "56.5"
+  },
+  {
+    "championship_odds": "+900",
+    "result_text": "53-29 (under)",
+    "season_end_year": 2026,
+    "team": "New York Knicks",
+    "win_total_line": "53.5"
+  },
+  {
+    "championship_odds": "+1300",
+    "result_text": "49-33 (under)",
+    "season_end_year": 2026,
+    "team": "Minnesota Timberwolves",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+1400",
+    "result_text": "52-30 (under)",
+    "season_end_year": 2026,
+    "team": "Houston Rockets",
+    "win_total_line": "52.5"
+  },
+  {
+    "championship_odds": "+1600",
+    "result_text": "53-29 (over)",
+    "season_end_year": 2026,
+    "team": "Los Angeles Lakers",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "42-40 (under)",
+    "season_end_year": 2026,
+    "team": "Los Angeles Clippers",
+    "win_total_line": "49.5"
+  },
+  {
+    "championship_odds": "+1800",
+    "result_text": "45-37 (under)",
+    "season_end_year": 2026,
+    "team": "Orlando Magic",
+    "win_total_line": "51.5"
+  },
+  {
+    "championship_odds": "+2500",
+    "result_text": "37-45 (under)",
+    "season_end_year": 2026,
+    "team": "Golden State Warriors",
+    "win_total_line": "47.5"
+  },
+  {
+    "championship_odds": "+3300",
+    "result_text": "60-22 (over)",
+    "season_end_year": 2026,
+    "team": "Detroit Pistons",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+3500",
+    "result_text": "26-56 (under)",
+    "season_end_year": 2026,
+    "team": "Dallas Mavericks",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "45-37 (over)",
+    "season_end_year": 2026,
+    "team": "Philadelphia 76ers",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+4000",
+    "result_text": "46-36 (under)",
+    "season_end_year": 2026,
+    "team": "Atlanta Hawks",
+    "win_total_line": "46.5"
+  },
+  {
+    "championship_odds": "+5500",
+    "result_text": "32-50 (under)",
+    "season_end_year": 2026,
+    "team": "Milwaukee Bucks",
+    "win_total_line": "43.5"
+  },
+  {
+    "championship_odds": "+6000",
+    "result_text": "56-26 (over)",
+    "season_end_year": 2026,
+    "team": "Boston Celtics",
+    "win_total_line": "41.5"
+  },
+  {
+    "championship_odds": "+6600",
+    "result_text": "62-20 (over)",
+    "season_end_year": 2026,
+    "team": "San Antonio Spurs",
+    "win_total_line": "44.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "19-63 (under)",
+    "season_end_year": 2026,
+    "team": "Indiana Pacers",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+10000",
+    "result_text": "46-36 (over)",
+    "season_end_year": 2026,
+    "team": "Toronto Raptors",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+12500",
+    "result_text": "25-57 (under)",
+    "season_end_year": 2026,
+    "team": "Memphis Grizzlies",
+    "win_total_line": "39.5"
+  },
+  {
+    "championship_odds": "+20000",
+    "result_text": "43-39 (over)",
+    "season_end_year": 2026,
+    "team": "Miami Heat",
+    "win_total_line": "37.5"
+  },
+  {
+    "championship_odds": "+30000",
+    "result_text": "26-56 (under)",
+    "season_end_year": 2026,
+    "team": "New Orleans Pelicans",
+    "win_total_line": "30.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "45-37 (over)",
+    "season_end_year": 2026,
+    "team": "Phoenix Suns",
+    "win_total_line": "30.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "42-40 (over)",
+    "season_end_year": 2026,
+    "team": "Portland Trail Blazers",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "22-60 (under)",
+    "season_end_year": 2026,
+    "team": "Sacramento Kings",
+    "win_total_line": "35.5"
+  },
+  {
+    "championship_odds": "+50000",
+    "result_text": "31-51 (under)",
+    "season_end_year": 2026,
+    "team": "Chicago Bulls",
+    "win_total_line": "33.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "44-38 (over)",
+    "season_end_year": 2026,
+    "team": "Charlotte Hornets",
+    "win_total_line": "27.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "20-62 (over)",
+    "season_end_year": 2026,
+    "team": "Brooklyn Nets",
+    "win_total_line": "19.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "22-60 (over)",
+    "season_end_year": 2026,
+    "team": "Utah Jazz",
+    "win_total_line": "18.5"
+  },
+  {
+    "championship_odds": "+100000",
+    "result_text": "17-65 (under)",
+    "season_end_year": 2026,
+    "team": "Washington Wizards",
+    "win_total_line": "20.5"
+  }
+]

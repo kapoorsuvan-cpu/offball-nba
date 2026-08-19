@@ -1,0 +1,22 @@
+{
+  "csv": "data/nba_2k_team_seasons.csv",
+  "train_seasons": [
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24"
+  ],
+  "test_seasons": [
+    "2024-25",
+    "2025-26"
+  ],
+  "train_rows": 240,
+  "test_rows": 60,
+  "best_classical_model_by_grouped_cv": "elastic_net",
+  "tabfm_error": null,
+  "note": "TabFM pretrained weights are non-commercial/non-production licensed."
+}

@@ -1,0 +1,229 @@
+{
+  "method": "Strict walk-forward by season; season-block bootstrap; no random row split.",
+  "walkForwardSeasons": [
+    "2016-17",
+    "2017-18",
+    "2018-19",
+    "2019-20",
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "modelOverall": {
+    "scope": "all_10_seasons",
+    "rows": 300,
+    "maeWins": 7.101342192468494,
+    "rmseWins": 9.217785641846538,
+    "r2": 0.4116849372729823,
+    "biasWins": -0.010142994496701726,
+    "predictionStdWins": 9.864147586598929,
+    "actualStdWins": 12.01770725259019,
+    "predictionRangeWins": 50.353646622578445,
+    "actualRangeWins": 54.00000037999999
+  },
+  "modelRecentHoldout": {
+    "scope": "2024-25_and_2025-26",
+    "rows": 60,
+    "maeWins": 8.448480953902237,
+    "rmseWins": 11.256000382268939,
+    "r2": 0.2915328196107283,
+    "biasWins": -0.042878554995331025,
+    "predictionStdWins": 9.824219173455022,
+    "actualStdWins": 13.372857935086333,
+    "predictionRangeWins": 39.64725973230799,
+    "actualRangeWins": 51.00000085999999
+  },
+  "baselineComparison": {
+    "prior_season": {
+      "scope": "all_10_seasons",
+      "rows": 300,
+      "maeWins": 8.449171500333334,
+      "rmseWins": 10.989453764309761,
+      "r2": 0.163802295032365,
+      "biasWins": -1.3666666802691908e-08,
+      "predictionStdWins": 12.02214432515073,
+      "actualStdWins": 12.01770725259019,
+      "predictionRangeWins": 62.999999759999994,
+      "actualRangeWins": 54.00000037999999
+    },
+    "prior_three_seasons": {
+      "scope": "all_10_seasons",
+      "rows": 300,
+      "maeWins": 9.611334948511113,
+      "rmseWins": 12.404601977747735,
+      "r2": -0.06542387952840767,
+      "biasWins": 4.555555648266818e-09,
+      "predictionStdWins": 9.882045724044001,
+      "actualStdWins": 12.01770725259019,
+      "predictionRangeWins": 53.33333299999999,
+      "actualRangeWins": 54.00000037999999
+    },
+    "league_mean_41": {
+      "scope": "all_10_seasons",
+      "rows": 300,
+      "maeWins": 9.997954427,
+      "rmseWins": 12.017779402734455,
+      "r2": -1.2007342054864978e-05,
+      "biasWins": 0.04164329273333333,
+      "predictionStdWins": 0.0,
+      "actualStdWins": 12.01770725259019,
+      "predictionRangeWins": 0.0,
+      "actualRangeWins": 54.00000037999999
+    },
+    "preseason_market": {
+      "scope": "all_10_seasons",
+      "rows": 300,
+      "maeWins": 6.746352519533333,
+      "rmseWins": 8.566927131022837,
+      "r2": 0.49183247834707733,
+      "biasWins": -0.10002337393333338,
+      "predictionStdWins": 10.084679662185055,
+      "actualStdWins": 12.01770725259019,
+      "predictionRangeWins": 49.0,
+      "actualRangeWins": 54.00000037999999
+    }
+  },
+  "marketMaeDifferenceBootstrap95": {
+    "estimateMedian": 0.36272944384810124,
+    "ci95Low": -0.1181969521285748,
+    "ci95High": 0.7947310812996187,
+    "interpretation": "Negative favors the model; an interval crossing zero is inconclusive."
+  },
+  "fitGapAudit": {
+    "trainingSeasons": [
+      "2013-14",
+      "2014-15",
+      "2015-16",
+      "2016-17",
+      "2017-18",
+      "2018-19",
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24"
+    ],
+    "trainingInSample": {
+      "rows": 330,
+      "maeWins": 6.933110242762294,
+      "rmseWins": 8.683339210305508,
+      "r2": 0.4845607523993528,
+      "biasWins": -3.218973908973787e-15,
+      "predictionStdWins": 9.286429942666903,
+      "actualStdWins": 12.09478143585815,
+      "predictionRangeWins": 45.358708063273745,
+      "actualRangeWins": 62.999999759999994
+    },
+    "expandingValidation": {
+      "model": "rank_calibrated_lasso",
+      "validationRmseWins": 8.869996163128516,
+      "maeWins": 6.955989171540077,
+      "rmseWins": 8.869996163128516,
+      "r2": 0.42962932906905515,
+      "predictionStdWins": 9.640096103241275,
+      "predictionRangeWins": 43.17965123643993,
+      "actualStdWins": 11.744778731655147,
+      "actualRangeWins": 51.00000168,
+      "spreadRatio": 0.8207984435891311
+    },
+    "finalTwoSeasonHoldout": {
+      "model": "rank_calibrated_lasso",
+      "validationRmseWins": 8.869996163128516,
+      "maeWins": 8.409843117518939,
+      "rmseWins": 11.236877237446357,
+      "r2": 0.29393804551440617,
+      "predictionStdWins": 9.745138815724209,
+      "predictionRangeWins": 39.46333841168722,
+      "actualStdWins": 13.372857935086333,
+      "actualRangeWins": 51.00000085999999,
+      "spreadRatio": 0.7287252181267785
+    },
+    "validationMinusTrainingRmseWins": 0.18665695282300732,
+    "holdoutMinusValidationRmseWins": 2.366881074317842,
+    "interpretation": "A small validation-minus-training gap argues against classical fit overfitting. A large holdout-minus-validation gap indicates temporal drift or a harder recent regime."
+  },
+  "shuffledTargetTest": {
+    "repetitions": 200,
+    "observedWalkForwardRmseWins": 9.217785641846538,
+    "shuffledMedianRmseWins": 13.247021986186898,
+    "shuffledBestRmseWins": 11.590870622445346,
+    "oneSidedPermutationPValue": 0.004975124378109453,
+    "passesAtFivePercent": true
+  },
+  "residualAudit": {
+    "maeTrendWinsPerSeason": 0.24937753990307418,
+    "featureResidualCorrelations": {
+      "relative_star_mean": {
+        "errorCorrelation": 0.20746737125823794,
+        "absoluteErrorCorrelation": 0.016931963496219393
+      },
+      "relative_top_three_mean": {
+        "errorCorrelation": 0.1956757695229319,
+        "absoluteErrorCorrelation": 0.010457086453737368
+      },
+      "relative_starter_mean": {
+        "errorCorrelation": 0.19054311631749102,
+        "absoluteErrorCorrelation": -0.00555119101530128
+      },
+      "relative_starter_core_mean": {
+        "errorCorrelation": 0.12247491207466953,
+        "absoluteErrorCorrelation": -0.02844731737079726
+      },
+      "relative_bench_mean": {
+        "errorCorrelation": 0.07625437369684401,
+        "absoluteErrorCorrelation": -0.04207192613946972
+      },
+      "relative_starter_floor": {
+        "errorCorrelation": 0.08962772983403072,
+        "absoluteErrorCorrelation": -0.0741644883125721
+      },
+      "relative_bench_floor": {
+        "errorCorrelation": 0.016103364139997,
+        "absoluteErrorCorrelation": -0.028850160551240477
+      },
+      "relative_talent_spread": {
+        "errorCorrelation": 0.1571569513450677,
+        "absoluteErrorCorrelation": 0.047691419615151776
+      },
+      "prior_wins_1": {
+        "errorCorrelation": 0.15115937631130913,
+        "absoluteErrorCorrelation": -0.01224505485034833
+      },
+      "prior_three_year_mean": {
+        "errorCorrelation": 0.2256625017774294,
+        "absoluteErrorCorrelation": -0.061562040435644776
+      }
+    },
+    "worstAbsoluteErrorCorrelation": {
+      "feature": "relative_starter_floor",
+      "errorCorrelation": 0.08962772983403072,
+      "absoluteErrorCorrelation": -0.0741644883125721
+    }
+  },
+  "predictionFreeze": {
+    "season": "2026-27",
+    "modelVersion": "spread-calibrated-v2",
+    "frozenAsOf": "2026-08-10",
+    "teamCount": 30,
+    "predictionMinWins": 22.339811789427483,
+    "predictionMaxWins": 59.87494107995961,
+    "predictionRangeWins": 37.535129290532126,
+    "predictionFile": "artifacts/prediction_freezes/2026-27-spread-calibrated-v2-as-of-2026-08-10.csv",
+    "predictionSha256": "223d14141609e63120e55ec36977c93e9625c0d0fb492fe92fec3facf3a41173",
+    "modelFile": "artifacts/rank_calibrated_lasso/selected_model.joblib",
+    "modelSha256": "2558bea6060745bc09eaeca4fbc2cda48169135fecb52d7167bf868710e19899",
+    "historyFile": "data/nba_2k_team_seasons_backtest.csv",
+    "historySha256": "75a09f429b61674fd09112e7745f06674e2a82ae992df82a974b51a8e5c7a3d6",
+    "appDataSha256": "4545bd448669f10c7d3b88acef4395f39ea92af15dfa73e016f62bea1c8cc3f2",
+    "evaluationRule": "Do not alter this file. Compare predicted_wins with final 2026-27 normalized wins after the regular season."
+  },
+  "conclusionRules": {
+    "classicalOverfit": "Validation RMSE materially above training RMSE.",
+    "leakage": "Shuffled-target model performs unusually close to the real model.",
+    "temporalDrift": "Recent walk-forward errors materially exceed earlier errors.",
+    "compression": "Prediction standard deviation is materially below actual standard deviation."
+  }
+}

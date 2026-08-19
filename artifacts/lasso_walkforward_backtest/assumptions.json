@@ -1,0 +1,22 @@
+{
+  "model": "rank_calibrated_lasso",
+  "walkForward": true,
+  "hyperparameterTuning": "Expanding-window season validation inside each training window",
+  "features": [
+    "relative_star_mean",
+    "relative_top_three_mean",
+    "relative_starter_mean",
+    "relative_starter_core_mean",
+    "relative_bench_mean",
+    "relative_starter_floor",
+    "relative_bench_floor",
+    "relative_talent_spread",
+    "prior_wins_1",
+    "prior_three_year_mean"
+  ],
+  "starterWeighting": "Lasso selects among star, starter, bench, and prior-form inputs inside each training window",
+  "rankCalibration": "Blend and alpha tuned with expanding-window seasons inside each training window; candidates below 82% of observed spread are rejected",
+  "stakePerTeam": 10.0,
+  "assumedAmericanOdds": -110,
+  "covid2019_20": "All bets voided because the scheduled season was shortened; stakes returned."
+}

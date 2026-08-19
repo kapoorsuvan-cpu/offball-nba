@@ -1,0 +1,4362 @@
+[
+  {
+    "team": "Atlanta Hawks",
+    "slug": "atlanta-hawks",
+    "source_url": "https://www.2kratings.com/teams/atlanta-hawks",
+    "players": [
+      {
+        "player": "Jalen Johnson",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-johnson",
+        "rating": 89
+      },
+      {
+        "player": "Nickeil Alexander-Walker",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/nickeil-alexander-walker",
+        "rating": 83
+      },
+      {
+        "player": "CJ McCollum",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/cj-mccollum",
+        "rating": 83
+      },
+      {
+        "player": "Dyson Daniels",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dyson-daniels",
+        "rating": 83
+      },
+      {
+        "player": "Onyeka Okongwu",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/onyeka-okongwu",
+        "rating": 82
+      },
+      {
+        "player": "Luguentz Dort",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/luguentz-dort",
+        "rating": 80
+      },
+      {
+        "player": "Aaron Wiggins",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/aaron-wiggins",
+        "rating": 78
+      },
+      {
+        "player": "Jock Landale",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jock-landale",
+        "rating": 78
+      },
+      {
+        "player": "Devin Carter",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/devin-carter",
+        "rating": 77
+      },
+      {
+        "player": "Corey Kispert",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/corey-kispert",
+        "rating": 76
+      },
+      {
+        "player": "Buddy Hield",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/buddy-hield",
+        "rating": 75
+      },
+      {
+        "player": "Asa Newell",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/asa-newell",
+        "rating": 75
+      },
+      {
+        "player": "Ryan Nembhard",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/ryan-nembhard",
+        "rating": 75
+      },
+      {
+        "player": "Mouhamed Gueye",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/mouhamed-gueye",
+        "rating": 74
+      },
+      {
+        "player": "Jalen Wilson",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-wilson",
+        "rating": 74
+      },
+      {
+        "player": "Kingston Flemings",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/kingston-flemings",
+        "rating": 74
+      },
+      {
+        "player": "RayJ Dennis",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/rayj-dennis",
+        "rating": 71
+      },
+      {
+        "player": "Keshon Gilbert",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/keshon-gilbert",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Boston Celtics",
+    "slug": "boston-celtics",
+    "source_url": "https://www.2kratings.com/teams/boston-celtics",
+    "players": [
+      {
+        "player": "Jayson Tatum",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jayson-tatum",
+        "rating": 93
+      },
+      {
+        "player": "Derrick White",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/derrick-white",
+        "rating": 85
+      },
+      {
+        "player": "Paul George",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/paul-george",
+        "rating": 83
+      },
+      {
+        "player": "Payton Pritchard",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/payton-pritchard",
+        "rating": 82
+      },
+      {
+        "player": "Neemias Queta",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/neemias-queta",
+        "rating": 81
+      },
+      {
+        "player": "Mitchell Robinson",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/mitchell-robinson",
+        "rating": 80
+      },
+      {
+        "player": "Luka Garza",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/luka-garza",
+        "rating": 78
+      },
+      {
+        "player": "Sam Hauser",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/sam-hauser",
+        "rating": 78
+      },
+      {
+        "player": "Mike Conley",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/mike-conley",
+        "rating": 77
+      },
+      {
+        "player": "Jordan Walsh",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-walsh",
+        "rating": 76
+      },
+      {
+        "player": "Baylor Scheierman",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/baylor-scheierman",
+        "rating": 76
+      },
+      {
+        "player": "Hugo Gonzalez",
+        "positions": [
+          "SF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/hugo-gonzalez",
+        "rating": 75
+      },
+      {
+        "player": "Ron Harper Jr.",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ron-harper-jr",
+        "rating": 73
+      },
+      {
+        "player": "Amari Williams",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/amari-williams",
+        "rating": 69
+      }
+    ]
+  },
+  {
+    "team": "Brooklyn Nets",
+    "slug": "brooklyn-nets",
+    "source_url": "https://www.2kratings.com/teams/brooklyn-nets",
+    "players": [
+      {
+        "player": "Michael Porter Jr.",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/michael-porter-jr",
+        "rating": 86
+      },
+      {
+        "player": "Julius Randle",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/julius-randle",
+        "rating": 85
+      },
+      {
+        "player": "Day’Ron Sharpe",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/dayron-sharpe",
+        "rating": 78
+      },
+      {
+        "player": "Josh Minott",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/josh-minott",
+        "rating": 78
+      },
+      {
+        "player": "Egor Demin",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/egor-demin",
+        "rating": 78
+      },
+      {
+        "player": "Moritz Wagner",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/moritz-wagner",
+        "rating": 77
+      },
+      {
+        "player": "Keon Ellis",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/keon-ellis",
+        "rating": 77
+      },
+      {
+        "player": "Noah Clowney",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/noah-clowney",
+        "rating": 77
+      },
+      {
+        "player": "Nolan Traore",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/nolan-traore",
+        "rating": 77
+      },
+      {
+        "player": "Danny Wolf",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/danny-wolf",
+        "rating": 77
+      },
+      {
+        "player": "Terance Mann",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/terance-mann",
+        "rating": 76
+      },
+      {
+        "player": "Ben Saraf",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ben-saraf",
+        "rating": 75
+      },
+      {
+        "player": "Mikel Brown Jr.",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/mikel-brown-jr",
+        "rating": 74
+      },
+      {
+        "player": "Drake Powell",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/drake-powell",
+        "rating": 73
+      },
+      {
+        "player": "Chaney Johnson",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/chaney-johnson",
+        "rating": 73
+      }
+    ]
+  },
+  {
+    "team": "Charlotte Hornets",
+    "slug": "charlotte-hornets",
+    "source_url": "https://www.2kratings.com/teams/charlotte-hornets",
+    "players": [
+      {
+        "player": "Brandon Miller",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/brandon-miller",
+        "rating": 87
+      },
+      {
+        "player": "Kon Knueppel",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kon-knueppel",
+        "rating": 86
+      },
+      {
+        "player": "Naz Reid",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/naz-reid",
+        "rating": 82
+      },
+      {
+        "player": "Coby White",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/coby-white",
+        "rating": 81
+      },
+      {
+        "player": "Grayson Allen",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/grayson-allen",
+        "rating": 81
+      },
+      {
+        "player": "Moussa Diabate",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/moussa-diabate",
+        "rating": 80
+      },
+      {
+        "player": "Ryan Kalkbrenner",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/ryan-kalkbrenner",
+        "rating": 80
+      },
+      {
+        "player": "Royce O’Neale",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/royce-oneale",
+        "rating": 77
+      },
+      {
+        "player": "Grant Williams",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/grant-williams",
+        "rating": 76
+      },
+      {
+        "player": "Dorian Finney-Smith",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/dorian-finney-smith",
+        "rating": 75
+      },
+      {
+        "player": "Tidjane Salaun",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/tidjane-salaun",
+        "rating": 75
+      },
+      {
+        "player": "Sion James",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/sion-james",
+        "rating": 75
+      },
+      {
+        "player": "Tre Mann",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/tre-mann",
+        "rating": 74
+      },
+      {
+        "player": "Pat Connaughton",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/pat-connaughton",
+        "rating": 73
+      },
+      {
+        "player": "PJ Hall",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/pj-hall",
+        "rating": 72
+      },
+      {
+        "player": "Liam McNeeley",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/liam-mcneeley",
+        "rating": 72
+      }
+    ]
+  },
+  {
+    "team": "Chicago Bulls",
+    "slug": "chicago-bulls",
+    "source_url": "https://www.2kratings.com/teams/chicago-bulls",
+    "players": [
+      {
+        "player": "Norman Powell",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/norman-powell",
+        "rating": 85
+      },
+      {
+        "player": "Josh Giddey",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/josh-giddey",
+        "rating": 83
+      },
+      {
+        "player": "Matas Buzelis",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/matas-buzelis",
+        "rating": 82
+      },
+      {
+        "player": "Nic Claxton",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/nicolas-claxton",
+        "rating": 81
+      },
+      {
+        "player": "Tre Jones",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tre-jones",
+        "rating": 81
+      },
+      {
+        "player": "Jalen Smith",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-smith",
+        "rating": 79
+      },
+      {
+        "player": "Zach Collins",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/zach-collins",
+        "rating": 77
+      },
+      {
+        "player": "Isaac Okoro",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/isaac-okoro",
+        "rating": 77
+      },
+      {
+        "player": "Caleb Wilson",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/caleb-wilson",
+        "rating": 77
+      },
+      {
+        "player": "Leonard Miller",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/leonard-miller",
+        "rating": 76
+      },
+      {
+        "player": "Patrick Williams",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/patrick-williams",
+        "rating": 75
+      },
+      {
+        "player": "Nick Richards",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/nick-richards",
+        "rating": 75
+      },
+      {
+        "player": "Rob Dillingham",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/rob-dillingham",
+        "rating": 73
+      },
+      {
+        "player": "Noa Essengue",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/noa-essengue",
+        "rating": 72
+      }
+    ]
+  },
+  {
+    "team": "Cleveland Cavaliers",
+    "slug": "cleveland-cavaliers",
+    "source_url": "https://www.2kratings.com/teams/cleveland-cavaliers",
+    "players": [
+      {
+        "player": "Donovan Mitchell",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/donovan-mitchell",
+        "rating": 93
+      },
+      {
+        "player": "Evan Mobley",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/evan-mobley",
+        "rating": 87
+      },
+      {
+        "player": "Jarrett Allen",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jarrett-allen",
+        "rating": 86
+      },
+      {
+        "player": "Max Strus",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/max-strus",
+        "rating": 79
+      },
+      {
+        "player": "Sam Merrill",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/sam-merrill",
+        "rating": 78
+      },
+      {
+        "player": "Dennis Schroder",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dennis-schroder",
+        "rating": 77
+      },
+      {
+        "player": "Jaylon Tyson",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaylon-tyson",
+        "rating": 77
+      },
+      {
+        "player": "Thomas Bryant",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/thomas-bryant",
+        "rating": 76
+      },
+      {
+        "player": "Craig Porter Jr.",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/craig-porter",
+        "rating": 74
+      },
+      {
+        "player": "Nae’Qwan Tomlin",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/naeqwan-tomlin",
+        "rating": 74
+      },
+      {
+        "player": "Mario Hezonja",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/mario-hezonja",
+        "rating": 73
+      },
+      {
+        "player": "Tyrese Proctor",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tyrese-proctor",
+        "rating": 73
+      },
+      {
+        "player": "Tristan Enaruna",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/tristan-enaruna",
+        "rating": 68
+      },
+      {
+        "player": "Riley Minix",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/riley-minix",
+        "rating": 67
+      }
+    ]
+  },
+  {
+    "team": "Dallas Mavericks",
+    "slug": "dallas-mavericks",
+    "source_url": "https://www.2kratings.com/teams/dallas-mavericks",
+    "players": [
+      {
+        "player": "Kyrie Irving",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kyrie-irving",
+        "rating": 90
+      },
+      {
+        "player": "Cooper Flagg",
+        "positions": [
+          "SF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/cooper-flagg",
+        "rating": 88
+      },
+      {
+        "player": "Naji Marshall",
+        "positions": [
+          "SF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/naji-marshall",
+        "rating": 81
+      },
+      {
+        "player": "Santi Aldama",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/santi-aldama",
+        "rating": 81
+      },
+      {
+        "player": "P.J. Washington",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/pj-washington",
+        "rating": 80
+      },
+      {
+        "player": "Daniel Gafford",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/daniel-gafford",
+        "rating": 80
+      },
+      {
+        "player": "Dereck Lively II",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/dereck-lively-ii",
+        "rating": 79
+      },
+      {
+        "player": "Klay Thompson",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/klay-thompson",
+        "rating": 78
+      },
+      {
+        "player": "Max Christie",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/max-christie",
+        "rating": 77
+      },
+      {
+        "player": "Zaccharie Risacher",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/zaccharie-risacher",
+        "rating": 77
+      },
+      {
+        "player": "Marcus Sasser",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/marcus-sasser",
+        "rating": 76
+      },
+      {
+        "player": "Caleb Martin",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/caleb-martin",
+        "rating": 75
+      },
+      {
+        "player": "Jett Howard",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jett-howard",
+        "rating": 74
+      },
+      {
+        "player": "Dwight Powell",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/dwight-powell",
+        "rating": 74
+      },
+      {
+        "player": "Moussa Cisse",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/moussa-cisse",
+        "rating": 73
+      },
+      {
+        "player": "Morez Johnson Jr.",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/morez-johnson-jr",
+        "rating": 73
+      },
+      {
+        "player": "John Poulakidas",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/john-poulakidas",
+        "rating": 71
+      }
+    ]
+  },
+  {
+    "team": "Denver Nuggets",
+    "slug": "denver-nuggets",
+    "source_url": "https://www.2kratings.com/teams/denver-nuggets",
+    "players": [
+      {
+        "player": "Nikola Jokic",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/nikola-jokic",
+        "rating": 98
+      },
+      {
+        "player": "Jamal Murray",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jamal-murray",
+        "rating": 89
+      },
+      {
+        "player": "Aaron Gordon",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/aaron-gordon",
+        "rating": 83
+      },
+      {
+        "player": "Tim Hardaway Jr.",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/tim-hardaway-jr",
+        "rating": 80
+      },
+      {
+        "player": "Cameron Johnson",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/cameron-johnson",
+        "rating": 80
+      },
+      {
+        "player": "Christian Braun",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/christian-braun",
+        "rating": 80
+      },
+      {
+        "player": "Marvin Bagley III",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/marvin-bagley-iii",
+        "rating": 79
+      },
+      {
+        "player": "Julian Strawther",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/julian-strawther",
+        "rating": 77
+      },
+      {
+        "player": "Bruce Brown",
+        "positions": [
+          "SF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/bruce-brown-jr",
+        "rating": 75
+      },
+      {
+        "player": "Tyus Jones",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tyus-jones",
+        "rating": 73
+      },
+      {
+        "player": "Zeke Nnaji",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/zeke-nnaji",
+        "rating": 73
+      },
+      {
+        "player": "DaRon Holmes II",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/daron-holmes",
+        "rating": 73
+      },
+      {
+        "player": "KJ Simpson",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/kj-simpson",
+        "rating": 73
+      },
+      {
+        "player": "Spencer Jones",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/spencer-jones",
+        "rating": 73
+      }
+    ]
+  },
+  {
+    "team": "Detroit Pistons",
+    "slug": "detroit-pistons",
+    "source_url": "https://www.2kratings.com/teams/detroit-pistons",
+    "players": [
+      {
+        "player": "Cade Cunningham",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/cade-cunningham",
+        "rating": 95
+      },
+      {
+        "player": "Ausar Thompson",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/ausar-thompson",
+        "rating": 86
+      },
+      {
+        "player": "Jalen Duren",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-duren",
+        "rating": 85
+      },
+      {
+        "player": "John Collins",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/john-collins",
+        "rating": 81
+      },
+      {
+        "player": "Daniss Jenkins",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/daniss-jenkins",
+        "rating": 80
+      },
+      {
+        "player": "Duncan Robinson",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/duncan-robinson",
+        "rating": 80
+      },
+      {
+        "player": "Paul Reed",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/paul-reed",
+        "rating": 79
+      },
+      {
+        "player": "Isaiah Joe",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/isaiah-joe",
+        "rating": 79
+      },
+      {
+        "player": "Javonte Green",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/javonte-green",
+        "rating": 78
+      },
+      {
+        "player": "Ronald Holland II",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/ronald-holland",
+        "rating": 78
+      },
+      {
+        "player": "Kevin Huerter",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/kevin-huerter",
+        "rating": 77
+      },
+      {
+        "player": "Taurean Prince",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/taurean-prince",
+        "rating": 76
+      },
+      {
+        "player": "Gary Harris",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/gary-harris",
+        "rating": 73
+      },
+      {
+        "player": "Elijah Harkless",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/elijah-harkless",
+        "rating": 72
+      },
+      {
+        "player": "Isaac Jones",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/isaac-jones",
+        "rating": 71
+      },
+      {
+        "player": "Chaz Lanier",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/chaz-lanier",
+        "rating": 68
+      },
+      {
+        "player": "Tolu Smith",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/tolu-smith",
+        "rating": 67
+      }
+    ]
+  },
+  {
+    "team": "Golden State Warriors",
+    "slug": "golden-state-warriors",
+    "source_url": "https://www.2kratings.com/teams/golden-state-warriors",
+    "players": [
+      {
+        "player": "Stephen Curry",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/stephen-curry",
+        "rating": 95
+      },
+      {
+        "player": "Jimmy Butler",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jimmy-butler",
+        "rating": 88
+      },
+      {
+        "player": "Kristaps Porzingis",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/kristaps-porzingis",
+        "rating": 83
+      },
+      {
+        "player": "Brandin Podziemski",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/brandin-podziemski",
+        "rating": 81
+      },
+      {
+        "player": "Gui Santos",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/gui-santos",
+        "rating": 80
+      },
+      {
+        "player": "Draymond Green",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/draymond-green",
+        "rating": 79
+      },
+      {
+        "player": "De’Anthony Melton",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/deanthony-melton",
+        "rating": 79
+      },
+      {
+        "player": "Al Horford",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/al-horford",
+        "rating": 79
+      },
+      {
+        "player": "Gary Payton II",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/gary-payton-ii",
+        "rating": 79
+      },
+      {
+        "player": "Moses Moody",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/moses-moody",
+        "rating": 79
+      },
+      {
+        "player": "Will Richard",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/will-richard",
+        "rating": 75
+      },
+      {
+        "player": "LJ Cryer",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/lj-cryer",
+        "rating": 74
+      },
+      {
+        "player": "Yaxel Lendeborg",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/yaxel-lendeborg",
+        "rating": 73
+      },
+      {
+        "player": "Charles Bassey",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/charles-bassey",
+        "rating": 72
+      },
+      {
+        "player": "Malevy Leons",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/malevy-leons",
+        "rating": 70
+      }
+    ]
+  },
+  {
+    "team": "Houston Rockets",
+    "slug": "houston-rockets",
+    "source_url": "https://www.2kratings.com/teams/houston-rockets",
+    "players": [
+      {
+        "player": "Kevin Durant",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kevin-durant",
+        "rating": 93
+      },
+      {
+        "player": "Alperen Sengun",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/alperen-sengun",
+        "rating": 88
+      },
+      {
+        "player": "Amen Thompson",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/amen-thompson",
+        "rating": 87
+      },
+      {
+        "player": "Jabari Smith Jr.",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jabari-smith",
+        "rating": 82
+      },
+      {
+        "player": "Marcus Smart",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/marcus-smart",
+        "rating": 80
+      },
+      {
+        "player": "Fred VanVleet",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/fred-vanvleet",
+        "rating": 80
+      },
+      {
+        "player": "Reed Sheppard",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/reed-sheppard",
+        "rating": 80
+      },
+      {
+        "player": "Tari Eason",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/tari-eason",
+        "rating": 79
+      },
+      {
+        "player": "Clint Capela",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/clint-capela",
+        "rating": 77
+      },
+      {
+        "player": "Steven Adams",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/steven-adams",
+        "rating": 77
+      },
+      {
+        "player": "Bogdan Bogdanovic",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/bogdan-bogdanovic",
+        "rating": 74
+      },
+      {
+        "player": "Jae’Sean Tate",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaesean-tate",
+        "rating": 73
+      },
+      {
+        "player": "Oscar Tshiebwe",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/oscar-tshiebwe",
+        "rating": 73
+      },
+      {
+        "player": "Julian Phillips",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/julian-phillips",
+        "rating": 72
+      },
+      {
+        "player": "Tristen Newton",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tristen-newton",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Indiana Pacers",
+    "slug": "indiana-pacers",
+    "source_url": "https://www.2kratings.com/teams/indiana-pacers",
+    "players": [
+      {
+        "player": "Tyrese Haliburton",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/tyrese-haliburton",
+        "rating": 93
+      },
+      {
+        "player": "Pascal Siakam",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/pascal-siakam",
+        "rating": 87
+      },
+      {
+        "player": "Ivica Zubac",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/ivica-zubac",
+        "rating": 85
+      },
+      {
+        "player": "Andrew Nembhard",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/andrew-nembhard",
+        "rating": 82
+      },
+      {
+        "player": "T.J. McConnell",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tj-mcconnell",
+        "rating": 81
+      },
+      {
+        "player": "Jarace Walker",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jarace-walker",
+        "rating": 81
+      },
+      {
+        "player": "Kelly Oubre Jr.",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/kelly-oubre-jr",
+        "rating": 80
+      },
+      {
+        "player": "Obi Toppin",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/obi-toppin",
+        "rating": 80
+      },
+      {
+        "player": "Aaron Nesmith",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/aaron-nesmith",
+        "rating": 80
+      },
+      {
+        "player": "Jay Huff",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jay-huff",
+        "rating": 79
+      },
+      {
+        "player": "Quenton Jackson",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/quenton-jackson",
+        "rating": 76
+      },
+      {
+        "player": "Kobe Brown",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/kobe-brown",
+        "rating": 76
+      },
+      {
+        "player": "Ben Sheppard",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/ben-sheppard",
+        "rating": 75
+      },
+      {
+        "player": "Johnny Furphy",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/johnny-furphy",
+        "rating": 74
+      },
+      {
+        "player": "Larry Nance Jr.",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/larry-nance-jr",
+        "rating": 73
+      },
+      {
+        "player": "Jalen Slawson",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-slawson",
+        "rating": 73
+      },
+      {
+        "player": "Ethan Thompson",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/ethan-thompson",
+        "rating": 73
+      }
+    ]
+  },
+  {
+    "team": "Los Angeles Clippers",
+    "slug": "los-angeles-clippers",
+    "source_url": "https://www.2kratings.com/teams/los-angeles-clippers",
+    "players": [
+      {
+        "player": "Brandon Ingram",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/brandon-ingram",
+        "rating": 86
+      },
+      {
+        "player": "Darius Garland",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/darius-garland",
+        "rating": 85
+      },
+      {
+        "player": "Rui Hachimura",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/rui-hachimura",
+        "rating": 81
+      },
+      {
+        "player": "Derrick Jones Jr.",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/derrick-jones-jr",
+        "rating": 79
+      },
+      {
+        "player": "Brook Lopez",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/brook-lopez",
+        "rating": 78
+      },
+      {
+        "player": "Kris Dunn",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kris-dunn",
+        "rating": 77
+      },
+      {
+        "player": "Isaiah Jackson",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/isaiah-jackson",
+        "rating": 77
+      },
+      {
+        "player": "Jordan Miller",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-miller",
+        "rating": 77
+      },
+      {
+        "player": "Gradey Dick",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/gradey-dick",
+        "rating": 76
+      },
+      {
+        "player": "Kobe Sanders",
+        "positions": [
+          "PG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/kobe-sanders",
+        "rating": 76
+      },
+      {
+        "player": "Yanic Konan Niederhauser",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/yanic-konan-niederhauser",
+        "rating": 75
+      },
+      {
+        "player": "Keaton Wagler",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/keaton-wagler",
+        "rating": 75
+      },
+      {
+        "player": "Nicolas Batum",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/nicolas-batum",
+        "rating": 74
+      },
+      {
+        "player": "Jalen Pickett",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-pickett",
+        "rating": 73
+      },
+      {
+        "player": "Cam Christie",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/cam-christie",
+        "rating": 70
+      },
+      {
+        "player": "Johni Broome",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/johni-broome",
+        "rating": 70
+      },
+      {
+        "player": "Sean Pedulla",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/sean-pedulla",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Los Angeles Lakers",
+    "slug": "los-angeles-lakers",
+    "source_url": "https://www.2kratings.com/teams/los-angeles-lakers",
+    "players": [
+      {
+        "player": "Luka Doncic",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/luka-doncic",
+        "rating": 97
+      },
+      {
+        "player": "Austin Reaves",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/austin-reaves",
+        "rating": 87
+      },
+      {
+        "player": "Walker Kessler",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/walker-kessler",
+        "rating": 83
+      },
+      {
+        "player": "Collin Sexton",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/collin-sexton",
+        "rating": 81
+      },
+      {
+        "player": "Quentin Grimes",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/quentin-grimes",
+        "rating": 79
+      },
+      {
+        "player": "Sandro Mamukelashvili",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/sandro-mamukelashvili",
+        "rating": 79
+      },
+      {
+        "player": "Ziaire Williams",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ziaire-williams",
+        "rating": 78
+      },
+      {
+        "player": "Jarred Vanderbilt",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jarred-vanderbilt",
+        "rating": 76
+      },
+      {
+        "player": "Matisse Thybulle",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/matisse-thybulle",
+        "rating": 76
+      },
+      {
+        "player": "Jaden Hardy",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/jaden-hardy",
+        "rating": 76
+      },
+      {
+        "player": "Jake LaRavia",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jake-laravia",
+        "rating": 76
+      },
+      {
+        "player": "Kevon Looney",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/kevon-looney",
+        "rating": 74
+      },
+      {
+        "player": "Dalton Knecht",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dalton-knecht",
+        "rating": 74
+      },
+      {
+        "player": "Bronny James",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/bronny-james",
+        "rating": 71
+      },
+      {
+        "player": "Adou Thiero",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/adou-thiero",
+        "rating": 70
+      },
+      {
+        "player": "Chris Manon",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/chris-manon",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Memphis Grizzlies",
+    "slug": "memphis-grizzlies",
+    "source_url": "https://www.2kratings.com/teams/memphis-grizzlies",
+    "players": [
+      {
+        "player": "Ty Jerome",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ty-jerome",
+        "rating": 83
+      },
+      {
+        "player": "Zach Edey",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/zach-edey",
+        "rating": 82
+      },
+      {
+        "player": "Jerami Grant",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jerami-grant",
+        "rating": 81
+      },
+      {
+        "player": "Cedric Coward",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/cedric-coward",
+        "rating": 80
+      },
+      {
+        "player": "GG Jackson",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/gregory-jackson-ii",
+        "rating": 80
+      },
+      {
+        "player": "Cameron Boozer",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/cameron-boozer",
+        "rating": 79
+      },
+      {
+        "player": "Jaylen Wells",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jaylen-wells",
+        "rating": 79
+      },
+      {
+        "player": "Cam Spencer",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/cam-spencer",
+        "rating": 79
+      },
+      {
+        "player": "Olivier-Maxence Prosper",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/olivier-maxence-prosper",
+        "rating": 78
+      },
+      {
+        "player": "Isaiah Stewart",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/isaiah-stewart",
+        "rating": 78
+      },
+      {
+        "player": "Scotty Pippen Jr.",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/scotty-pippen-jr",
+        "rating": 77
+      },
+      {
+        "player": "Javon Small",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/javon-small",
+        "rating": 77
+      },
+      {
+        "player": "Quinten Post",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/quinten-post",
+        "rating": 76
+      },
+      {
+        "player": "D’Angelo Russell",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dangelo-russell",
+        "rating": 76
+      },
+      {
+        "player": "Taylor Hendricks",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/taylor-hendricks",
+        "rating": 75
+      },
+      {
+        "player": "Walter Clayton Jr.",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/walter-clayton-jr",
+        "rating": 75
+      },
+      {
+        "player": "Kris Murray",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/kris-murray",
+        "rating": 74
+      },
+      {
+        "player": "Jahmai Mashack",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jahmai-mashack",
+        "rating": 73
+      },
+      {
+        "player": "AJ Johnson",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/aj-johnson",
+        "rating": 72
+      },
+      {
+        "player": "Taj Gibson",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/taj-gibson",
+        "rating": 70
+      }
+    ]
+  },
+  {
+    "team": "Miami Heat",
+    "slug": "miami-heat",
+    "source_url": "https://www.2kratings.com/teams/miami-heat",
+    "players": [
+      {
+        "player": "Giannis Antetokounmpo",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/giannis-antetokounmpo",
+        "rating": 97
+      },
+      {
+        "player": "Bam Adebayo",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/bam-adebayo",
+        "rating": 89
+      },
+      {
+        "player": "Andrew Wiggins",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/andrew-wiggins",
+        "rating": 81
+      },
+      {
+        "player": "Bobby Portis",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/bobby-portis",
+        "rating": 80
+      },
+      {
+        "player": "Pelle Larsson",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/pelle-larsson",
+        "rating": 80
+      },
+      {
+        "player": "Davion Mitchell",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/davion-mitchell",
+        "rating": 79
+      },
+      {
+        "player": "Simone Fontecchio",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/simone-fontecchio",
+        "rating": 77
+      },
+      {
+        "player": "Dru Smith",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dru-smith",
+        "rating": 75
+      },
+      {
+        "player": "Myron Gardner",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/myron-gardner",
+        "rating": 75
+      },
+      {
+        "player": "Nikola Jovic",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/nikola-jovic",
+        "rating": 74
+      },
+      {
+        "player": "Keshad Johnson",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/keshad-johnson",
+        "rating": 72
+      },
+      {
+        "player": "Trevor Keels",
+        "positions": [
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/trevor-keels",
+        "rating": 68
+      },
+      {
+        "player": "Vladislav Goldin",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/vladislav-goldin",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Milwaukee Bucks",
+    "slug": "milwaukee-bucks",
+    "source_url": "https://www.2kratings.com/teams/milwaukee-bucks",
+    "players": [
+      {
+        "player": "Tyler Herro",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tyler-herro",
+        "rating": 87
+      },
+      {
+        "player": "Kevin Porter Jr.",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kevin-porter-jr",
+        "rating": 82
+      },
+      {
+        "player": "Ryan Rollins",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ryan-rollins",
+        "rating": 82
+      },
+      {
+        "player": "Kyle Kuzma",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/kyle-kuzma",
+        "rating": 80
+      },
+      {
+        "player": "Jaime Jaquez Jr.",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaime-jaquez-jr",
+        "rating": 80
+      },
+      {
+        "player": "Kel’el Ware",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/kelel-ware",
+        "rating": 80
+      },
+      {
+        "player": "Caris LeVert",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/caris-levert",
+        "rating": 79
+      },
+      {
+        "player": "Myles Turner",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/myles-turner",
+        "rating": 78
+      },
+      {
+        "player": "Ousmane Dieng",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/ousmane-dieng",
+        "rating": 77
+      },
+      {
+        "player": "AJ Green",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/aj-green",
+        "rating": 76
+      },
+      {
+        "player": "Kasparas Jakucionis",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kasparas-jakucionis",
+        "rating": 76
+      },
+      {
+        "player": "Gary Trent Jr.",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/gary-trent-jr",
+        "rating": 75
+      },
+      {
+        "player": "Jericho Sims",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jericho-sims",
+        "rating": 74
+      },
+      {
+        "player": "Pete Nance",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/pete-nance",
+        "rating": 74
+      },
+      {
+        "player": "Kam Jones",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/kam-jones",
+        "rating": 74
+      },
+      {
+        "player": "Brayden Burries",
+        "positions": [
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/brayden-burries",
+        "rating": 73
+      },
+      {
+        "player": "Cormac Ryan",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/cormac-ryan",
+        "rating": 72
+      }
+    ]
+  },
+  {
+    "team": "Minnesota Timberwolves",
+    "slug": "minnesota-timberwolves",
+    "source_url": "https://www.2kratings.com/teams/minnesota-timberwolves",
+    "players": [
+      {
+        "player": "Anthony Edwards",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/anthony-edwards",
+        "rating": 96
+      },
+      {
+        "player": "LaMelo Ball",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/lamelo-ball",
+        "rating": 88
+      },
+      {
+        "player": "Rudy Gobert",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/rudy-gobert",
+        "rating": 85
+      },
+      {
+        "player": "Jaden McDaniels",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaden-mcdaniels",
+        "rating": 85
+      },
+      {
+        "player": "Ayo Dosunmu",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/ayo-dosunmu",
+        "rating": 83
+      },
+      {
+        "player": "Donte DiVincenzo",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/donte-divincenzo",
+        "rating": 80
+      },
+      {
+        "player": "Terrence Shannon Jr.",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/terrence-shannon",
+        "rating": 77
+      },
+      {
+        "player": "Bones Hyland",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/bones-hyland",
+        "rating": 76
+      },
+      {
+        "player": "Josh Green",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/josh-green",
+        "rating": 75
+      },
+      {
+        "player": "Trey Lyles",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/trey-lyles",
+        "rating": 74
+      },
+      {
+        "player": "Jaylen Clark",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaylen-clark",
+        "rating": 73
+      },
+      {
+        "player": "Joan Beringer",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/joan-beringer",
+        "rating": 72
+      },
+      {
+        "player": "Enrique Freeman",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/enrique-freeman",
+        "rating": 69
+      },
+      {
+        "player": "Rocco Zikarsky",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/rocco-zikarsky",
+        "rating": 68
+      },
+      {
+        "player": "Zyon Pullin",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/zyon-pullin",
+        "rating": 67
+      }
+    ]
+  },
+  {
+    "team": "New Orleans Pelicans",
+    "slug": "new-orleans-pelicans",
+    "source_url": "https://www.2kratings.com/teams/new-orleans-pelicans",
+    "players": [
+      {
+        "player": "Zion Williamson",
+        "positions": [
+          "PF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/zion-williamson",
+        "rating": 86
+      },
+      {
+        "player": "Trey Murphy III",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/trey-murphy",
+        "rating": 85
+      },
+      {
+        "player": "Dejounte Murray",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dejounte-murray",
+        "rating": 84
+      },
+      {
+        "player": "Saddiq Bey",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/saddiq-bey",
+        "rating": 84
+      },
+      {
+        "player": "Jeremiah Fears",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jeremiah-fears",
+        "rating": 80
+      },
+      {
+        "player": "Derik Queen",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/derik-queen",
+        "rating": 80
+      },
+      {
+        "player": "Herbert Jones",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/herbert-jones",
+        "rating": 79
+      },
+      {
+        "player": "Yves Missi",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/yves-missi",
+        "rating": 78
+      },
+      {
+        "player": "DeAndre Jordan",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/deandre-jordan",
+        "rating": 76
+      },
+      {
+        "player": "Jordan Poole",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-poole",
+        "rating": 76
+      },
+      {
+        "player": "Karlo Matkovic",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/karlo-matkovic",
+        "rating": 76
+      },
+      {
+        "player": "Bryce McGowens",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/bryce-mcgowens",
+        "rating": 75
+      },
+      {
+        "player": "Christian Koloko",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/christian-koloko",
+        "rating": 73
+      },
+      {
+        "player": "Jordan Hawkins",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-hawkins",
+        "rating": 72
+      },
+      {
+        "player": "Micah Peavy",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/micah-peavy",
+        "rating": 72
+      },
+      {
+        "player": "Hunter Dickinson",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/hunter-dickinson",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "New York Knicks",
+    "slug": "new-york-knicks",
+    "source_url": "https://www.2kratings.com/teams/new-york-knicks",
+    "players": [
+      {
+        "player": "Jalen Brunson",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-brunson",
+        "rating": 96
+      },
+      {
+        "player": "Karl-Anthony Towns",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/karl-anthony-towns",
+        "rating": 91
+      },
+      {
+        "player": "OG Anunoby",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/og-anunoby",
+        "rating": 88
+      },
+      {
+        "player": "Mikal Bridges",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/mikal-bridges",
+        "rating": 84
+      },
+      {
+        "player": "Josh Hart",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/josh-hart",
+        "rating": 82
+      },
+      {
+        "player": "Miles McBride",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/miles-mcbride",
+        "rating": 79
+      },
+      {
+        "player": "Jose Alvarado",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jose-alvarado",
+        "rating": 78
+      },
+      {
+        "player": "Landry Shamet",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/landry-shamet",
+        "rating": 77
+      },
+      {
+        "player": "Jordan Clarkson",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-clarkson",
+        "rating": 77
+      },
+      {
+        "player": "Andre Drummond",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/andre-drummond",
+        "rating": 76
+      },
+      {
+        "player": "Tyler Kolek",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/tyler-kolek",
+        "rating": 74
+      },
+      {
+        "player": "Mohamed Diawara",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/mohamed-diawara",
+        "rating": 74
+      },
+      {
+        "player": "Pacome Dadiet",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/pacome-dadiet",
+        "rating": 69
+      },
+      {
+        "player": "Dillon Jones",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/dillon-jones",
+        "rating": 69
+      }
+    ]
+  },
+  {
+    "team": "Oklahoma City Thunder",
+    "slug": "oklahoma-city-thunder",
+    "source_url": "https://www.2kratings.com/teams/oklahoma-city-thunder",
+    "players": [
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/shai-gilgeous-alexander",
+        "rating": 98
+      },
+      {
+        "player": "Chet Holmgren",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/chet-holmgren",
+        "rating": 87
+      },
+      {
+        "player": "Jalen Williams",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-williams",
+        "rating": 87
+      },
+      {
+        "player": "Isaiah Hartenstein",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/isaiah-hartenstein",
+        "rating": 84
+      },
+      {
+        "player": "Ajay Mitchell",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ajay-mitchell",
+        "rating": 84
+      },
+      {
+        "player": "Cason Wallace",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/cason-wallace",
+        "rating": 83
+      },
+      {
+        "player": "Alex Caruso",
+        "positions": [
+          "SF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/alex-caruso",
+        "rating": 82
+      },
+      {
+        "player": "Jared McCain",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jared-mccain",
+        "rating": 80
+      },
+      {
+        "player": "Jaylin Williams",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jaylin-williams",
+        "rating": 79
+      },
+      {
+        "player": "Kenrich Williams",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/kenrich-williams",
+        "rating": 78
+      },
+      {
+        "player": "Nikola Topic",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/nikola-topic",
+        "rating": 73
+      },
+      {
+        "player": "Thomas Sorber",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/thomas-sorber",
+        "rating": 71
+      },
+      {
+        "player": "Brooks Barnhizer",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/brooks-barnhizer",
+        "rating": 69
+      }
+    ]
+  },
+  {
+    "team": "Orlando Magic",
+    "slug": "orlando-magic",
+    "source_url": "https://www.2kratings.com/teams/orlando-magic",
+    "players": [
+      {
+        "player": "Paolo Banchero",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/paolo-banchero",
+        "rating": 88
+      },
+      {
+        "player": "Franz Wagner",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/franz-wagner",
+        "rating": 87
+      },
+      {
+        "player": "Desmond Bane",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/desmond-bane",
+        "rating": 86
+      },
+      {
+        "player": "Anthony Black",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/anthony-black",
+        "rating": 82
+      },
+      {
+        "player": "Jalen Suggs",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-suggs",
+        "rating": 81
+      },
+      {
+        "player": "Wendell Carter Jr.",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/wendell-carter-jr",
+        "rating": 80
+      },
+      {
+        "player": "Nikola Vucevic",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/nikola-vucevic",
+        "rating": 79
+      },
+      {
+        "player": "Tristan da Silva",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/tristan-da-silva",
+        "rating": 78
+      },
+      {
+        "player": "Goga Bitadze",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/goga-bitadze",
+        "rating": 77
+      },
+      {
+        "player": "Jevon Carter",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jevon-carter",
+        "rating": 75
+      },
+      {
+        "player": "Noah Penda",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/noah-penda",
+        "rating": 75
+      },
+      {
+        "player": "Jamal Cain",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jamal-cain",
+        "rating": 74
+      },
+      {
+        "player": "Jonathan Isaac",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jonathan-isaac",
+        "rating": 73
+      },
+      {
+        "player": "Jase Richardson",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/jase-richardson",
+        "rating": 73
+      },
+      {
+        "player": "Colin Castleton",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/colin-castleton",
+        "rating": 70
+      },
+      {
+        "player": "Alex Morales",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/alex-morales",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Philadelphia 76ers",
+    "slug": "philadelphia-76ers",
+    "source_url": "https://www.2kratings.com/teams/philadelphia-76ers",
+    "players": [
+      {
+        "player": "Jaylen Brown",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaylen-brown",
+        "rating": 95
+      },
+      {
+        "player": "Tyrese Maxey",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/tyrese-maxey",
+        "rating": 93
+      },
+      {
+        "player": "LeBron James",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/lebron-james",
+        "rating": 92
+      },
+      {
+        "player": "Joel Embiid",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/joel-embiid",
+        "rating": 92
+      },
+      {
+        "player": "VJ Edgecombe",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/vj-edgecombe",
+        "rating": 83
+      },
+      {
+        "player": "Anfernee Simons",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/anfernee-simons",
+        "rating": 80
+      },
+      {
+        "player": "Dean Wade",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/dean-wade",
+        "rating": 78
+      },
+      {
+        "player": "Dominick Barlow",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/dominick-barlow",
+        "rating": 76
+      },
+      {
+        "player": "Justin Edwards",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/justin-edwards",
+        "rating": 76
+      },
+      {
+        "player": "Kentavious Caldwell-Pope",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/kentavious-caldwell-pope",
+        "rating": 75
+      },
+      {
+        "player": "Adem Bona",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/adem-bona",
+        "rating": 75
+      },
+      {
+        "player": "Caleb Love",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/caleb-love",
+        "rating": 75
+      },
+      {
+        "player": "Rayan Rupert",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/rayan-rupert",
+        "rating": 74
+      },
+      {
+        "player": "Ariel Hukporti",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/ariel-hukporti",
+        "rating": 73
+      },
+      {
+        "player": "Jabari Walker",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jabari-walker",
+        "rating": 72
+      }
+    ]
+  },
+  {
+    "team": "Phoenix Suns",
+    "slug": "phoenix-suns",
+    "source_url": "https://www.2kratings.com/teams/phoenix-suns",
+    "players": [
+      {
+        "player": "Devin Booker",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/devin-booker",
+        "rating": 93
+      },
+      {
+        "player": "Dillon Brooks",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/dillon-brooks",
+        "rating": 84
+      },
+      {
+        "player": "Jalen Green",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jalen-green",
+        "rating": 82
+      },
+      {
+        "player": "Mark Williams",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/mark-williams",
+        "rating": 82
+      },
+      {
+        "player": "Miles Bridges",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/miles-bridges",
+        "rating": 81
+      },
+      {
+        "player": "Collin Gillespie",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/collin-gillespie",
+        "rating": 81
+      },
+      {
+        "player": "Luke Kennard",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/luke-kennard",
+        "rating": 78
+      },
+      {
+        "player": "Jordan Goodwin",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-goodwin",
+        "rating": 77
+      },
+      {
+        "player": "Oso Ighodaro",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/oso-ighodaro",
+        "rating": 77
+      },
+      {
+        "player": "Pat Spencer",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/pat-spencer",
+        "rating": 76
+      },
+      {
+        "player": "Rasheer Fleming",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/rasheer-fleming",
+        "rating": 76
+      },
+      {
+        "player": "Khaman Maluach",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/khaman-maluach",
+        "rating": 75
+      },
+      {
+        "player": "Ryan Dunn",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/ryan-dunn",
+        "rating": 75
+      },
+      {
+        "player": "Jamaree Bouyea",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jamaree-bouyea",
+        "rating": 74
+      },
+      {
+        "player": "Haywood Highsmith",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/haywood-highsmith",
+        "rating": 73
+      },
+      {
+        "player": "Koby Brea",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/koby-brea",
+        "rating": 68
+      },
+      {
+        "player": "CJ Huntley",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/cj-huntley",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Portland Trail Blazers",
+    "slug": "portland-trail-blazers",
+    "source_url": "https://www.2kratings.com/teams/portland-trail-blazers",
+    "players": [
+      {
+        "player": "Damian Lillard",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/damian-lillard",
+        "rating": 88
+      },
+      {
+        "player": "Deni Avdija",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/deni-avdija",
+        "rating": 88
+      },
+      {
+        "player": "Ja Morant",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/ja-morant",
+        "rating": 87
+      },
+      {
+        "player": "Donovan Clingan",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/donovan-clingan",
+        "rating": 83
+      },
+      {
+        "player": "Shaedon Sharpe",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/shaedon-sharpe",
+        "rating": 83
+      },
+      {
+        "player": "Jrue Holiday",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jrue-holiday",
+        "rating": 82
+      },
+      {
+        "player": "Scoot Henderson",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/scoot-henderson",
+        "rating": 81
+      },
+      {
+        "player": "Toumani Camara",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/toumani-camara",
+        "rating": 81
+      },
+      {
+        "player": "Robert Williams III",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/robert-williams-iii",
+        "rating": 80
+      },
+      {
+        "player": "Micah Potter",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/micah-potter",
+        "rating": 76
+      },
+      {
+        "player": "Vit Krejci",
+        "positions": [
+          "SF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/vit-krejci",
+        "rating": 75
+      },
+      {
+        "player": "Jeremy Sochan",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jeremy-sochan",
+        "rating": 74
+      },
+      {
+        "player": "Sidy Cissoko",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/sidy-cissoko",
+        "rating": 74
+      },
+      {
+        "player": "Branden Carlson",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/branden-carlson",
+        "rating": 73
+      },
+      {
+        "player": "Yang Hansen",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/yang-hansen",
+        "rating": 70
+      },
+      {
+        "player": "John Tonje",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/john-tonje",
+        "rating": 69
+      },
+      {
+        "player": "Chris Youngblood",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/chris-youngblood",
+        "rating": 68
+      },
+      {
+        "player": "Jayson Kent",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jayson-kent",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Sacramento Kings",
+    "slug": "sacramento-kings",
+    "source_url": "https://www.2kratings.com/teams/sacramento-kings",
+    "players": [
+      {
+        "player": "Domantas Sabonis",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/domantas-sabonis",
+        "rating": 86
+      },
+      {
+        "player": "Zach LaVine",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/zach-lavine",
+        "rating": 83
+      },
+      {
+        "player": "Russell Westbrook",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/russell-westbrook",
+        "rating": 81
+      },
+      {
+        "player": "Maxime Raynaud",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/maxime-raynaud",
+        "rating": 81
+      },
+      {
+        "player": "Malik Monk",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/malik-monk",
+        "rating": 80
+      },
+      {
+        "player": "De’Andre Hunter",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/deandre-hunter",
+        "rating": 79
+      },
+      {
+        "player": "Precious Achiuwa",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/precious-achiuwa",
+        "rating": 79
+      },
+      {
+        "player": "Keegan Murray",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/keegan-murray",
+        "rating": 79
+      },
+      {
+        "player": "Nique Clifford",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/nique-clifford",
+        "rating": 77
+      },
+      {
+        "player": "Dylan Cardwell",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/dylan-cardwell",
+        "rating": 77
+      },
+      {
+        "player": "Darius Acuff Jr.",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/darius-acuff-jr",
+        "rating": 75
+      },
+      {
+        "player": "Jonathan Mogbo",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jonathan-mogbo",
+        "rating": 74
+      },
+      {
+        "player": "Daeqwon Plowden",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/daeqwon-plowden",
+        "rating": 73
+      },
+      {
+        "player": "Adam Flagler",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/adam-flagler",
+        "rating": 67
+      }
+    ]
+  },
+  {
+    "team": "San Antonio Spurs",
+    "slug": "san-antonio-spurs",
+    "source_url": "https://www.2kratings.com/teams/san-antonio-spurs",
+    "players": [
+      {
+        "player": "Victor Wembanyama",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/victor-wembanyama",
+        "rating": 97
+      },
+      {
+        "player": "Stephon Castle",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/stephon-castle",
+        "rating": 88
+      },
+      {
+        "player": "De’Aaron Fox",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/deaaron-fox",
+        "rating": 86
+      },
+      {
+        "player": "Dylan Harper",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/dylan-harper",
+        "rating": 85
+      },
+      {
+        "player": "Tobias Harris",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/tobias-harris",
+        "rating": 83
+      },
+      {
+        "player": "Devin Vassell",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/devin-vassell",
+        "rating": 82
+      },
+      {
+        "player": "Julian Champagnie",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/julian-champagnie",
+        "rating": 82
+      },
+      {
+        "player": "Keldon Johnson",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/keldon-johnson",
+        "rating": 81
+      },
+      {
+        "player": "Luke Kornet",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/luke-kornet",
+        "rating": 78
+      },
+      {
+        "player": "Harrison Barnes",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/harrison-barnes",
+        "rating": 77
+      },
+      {
+        "player": "Carter Bryant",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/carter-bryant",
+        "rating": 77
+      },
+      {
+        "player": "Jordan McLaughlin",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/jordan-mclaughlin",
+        "rating": 72
+      },
+      {
+        "player": "David Jones Garcia",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/david-jones-garcia",
+        "rating": 71
+      }
+    ]
+  },
+  {
+    "team": "Toronto Raptors",
+    "slug": "toronto-raptors",
+    "source_url": "https://www.2kratings.com/teams/toronto-raptors",
+    "players": [
+      {
+        "player": "Kawhi Leonard",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kawhi-leonard",
+        "rating": 95
+      },
+      {
+        "player": "Scottie Barnes",
+        "positions": [
+          "PF",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/scottie-barnes",
+        "rating": 89
+      },
+      {
+        "player": "Immanuel Quickley",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/immanuel-quickley",
+        "rating": 84
+      },
+      {
+        "player": "RJ Barrett",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/rj-barrett",
+        "rating": 83
+      },
+      {
+        "player": "Collin Murray-Boyles",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/collin-murray-boyles",
+        "rating": 81
+      },
+      {
+        "player": "Jakob Poeltl",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jakob-poeltl",
+        "rating": 80
+      },
+      {
+        "player": "Ja’Kobe Walter",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/jakobe-walter",
+        "rating": 78
+      },
+      {
+        "player": "Jamal Shead",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/jamal-shead",
+        "rating": 78
+      },
+      {
+        "player": "Jamison Battle",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jamison-battle",
+        "rating": 76
+      },
+      {
+        "player": "Kyle Anderson",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/kyle-anderson",
+        "rating": 75
+      },
+      {
+        "player": "Kyle Lowry",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/kyle-lowry",
+        "rating": 73
+      },
+      {
+        "player": "Trayce Jackson-Davis",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/trayce-jackson-davis",
+        "rating": 73
+      },
+      {
+        "player": "Trey Jemison III",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/trey-jemison",
+        "rating": 71
+      },
+      {
+        "player": "Alijah Martin",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/alijah-martin",
+        "rating": 71
+      },
+      {
+        "player": "Chucky Hepburn",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/chucky-hepburn",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Utah Jazz",
+    "slug": "utah-jazz",
+    "source_url": "https://www.2kratings.com/teams/utah-jazz",
+    "players": [
+      {
+        "player": "Lauri Markkanen",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/lauri-markkanen",
+        "rating": 87
+      },
+      {
+        "player": "Keyonte George",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/keyonte-george",
+        "rating": 87
+      },
+      {
+        "player": "Jaren Jackson Jr.",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jaren-jackson-jr",
+        "rating": 86
+      },
+      {
+        "player": "Isaiah Collier",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/isaiah-collier",
+        "rating": 82
+      },
+      {
+        "player": "Jusuf Nurkic",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/jusuf-nurkic",
+        "rating": 82
+      },
+      {
+        "player": "Ace Bailey",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/ace-bailey",
+        "rating": 81
+      },
+      {
+        "player": "Brice Sensabaugh",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/brice-sensabaugh",
+        "rating": 81
+      },
+      {
+        "player": "Darryn Peterson",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/darryn-peterson",
+        "rating": 79
+      },
+      {
+        "player": "Kyle Filipowski",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/kyle-filipowski",
+        "rating": 79
+      },
+      {
+        "player": "Jaxson Hayes",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jaxson-hayes",
+        "rating": 79
+      },
+      {
+        "player": "Cody Williams",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/cody-williams",
+        "rating": 76
+      },
+      {
+        "player": "John Konchar",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/john-konchar",
+        "rating": 76
+      },
+      {
+        "player": "Svi Mykhailiuk",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/sviatoslav-mykhailiuk",
+        "rating": 76
+      },
+      {
+        "player": "Josh Okogie",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/josh-okogie",
+        "rating": 75
+      },
+      {
+        "player": "Blake Hinson",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/blake-hinson",
+        "rating": 73
+      },
+      {
+        "player": "Mo Bamba",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/mohamed-bamba",
+        "rating": 71
+      },
+      {
+        "player": "Harrison Ingram",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/harrison-ingram",
+        "rating": 69
+      },
+      {
+        "player": "Trey Alexander",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/trey-alexander",
+        "rating": 68
+      },
+      {
+        "player": "Tamar Bates",
+        "positions": [
+          "SG",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/tamar-bates",
+        "rating": 68
+      }
+    ]
+  },
+  {
+    "team": "Washington Wizards",
+    "slug": "washington-wizards",
+    "source_url": "https://www.2kratings.com/teams/washington-wizards",
+    "players": [
+      {
+        "player": "Anthony Davis",
+        "positions": [
+          "PF",
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/anthony-davis",
+        "rating": 92
+      },
+      {
+        "player": "Trae Young",
+        "positions": [
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/trae-young",
+        "rating": 89
+      },
+      {
+        "player": "Alex Sarr",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/alexandre-sarr",
+        "rating": 84
+      },
+      {
+        "player": "KyShawn George",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/kyshawn-george",
+        "rating": 82
+      },
+      {
+        "player": "Will Riley",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/will-riley",
+        "rating": 81
+      },
+      {
+        "player": "Deandre Ayton",
+        "positions": [
+          "C"
+        ],
+        "profile_url": "https://www.2kratings.com/deandre-ayton",
+        "rating": 79
+      },
+      {
+        "player": "Bilal Coulibaly",
+        "positions": [
+          "SF",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/bilal-coulibaly",
+        "rating": 79
+      },
+      {
+        "player": "AJ Dybantsa",
+        "positions": [
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/aj-dybantsa",
+        "rating": 79
+      },
+      {
+        "player": "Justin Champagnie",
+        "positions": [
+          "PF",
+          "SF"
+        ],
+        "profile_url": "https://www.2kratings.com/justin-champagnie",
+        "rating": 78
+      },
+      {
+        "player": "Bub Carrington",
+        "positions": [
+          "PG",
+          "SG"
+        ],
+        "profile_url": "https://www.2kratings.com/bub-carrington",
+        "rating": 78
+      },
+      {
+        "player": "Tre Johnson",
+        "positions": [
+          "SG",
+          "PG"
+        ],
+        "profile_url": "https://www.2kratings.com/tre-johnson",
+        "rating": 78
+      },
+      {
+        "player": "Tristan Vukcevic",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/tristan-vukcevic",
+        "rating": 77
+      },
+      {
+        "player": "Khris Middleton",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/khris-middleton",
+        "rating": 76
+      },
+      {
+        "player": "Jamir Watkins",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/jamir-watkins",
+        "rating": 76
+      },
+      {
+        "player": "Julian Reese",
+        "positions": [
+          "C",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/julian-reese",
+        "rating": 76
+      },
+      {
+        "player": "Cam Whitmore",
+        "positions": [
+          "SF",
+          "PF"
+        ],
+        "profile_url": "https://www.2kratings.com/cameron-whitmore",
+        "rating": 75
+      }
+    ]
+  }
+]

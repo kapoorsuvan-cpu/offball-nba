@@ -1,0 +1,9 @@
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+dashboard-app/node_modules/
+dashboard-app/.next/
+dashboard-app/.vercel/
+dashboard-app/.env*
+dashboard-app/.git.offball-backup/

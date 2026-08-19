@@ -1,0 +1,118 @@
+{
+  "selectedModel": "rank_calibrated_lasso",
+  "selectionRule": "Lowest expanding-window RMSE among candidates retaining at least 82% of observed validation spread; MAE breaks ties.",
+  "validationYears": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "holdoutYears": [
+    2025,
+    2026
+  ],
+  "alpha": 0.7108710187075685,
+  "rankBlend": 0.41000000000000003,
+  "candidateFeatureCount": 10,
+  "retainedFeatureCount": 3,
+  "features": [
+    {
+      "feature": "relative_star_mean",
+      "coefficientWins": 0.45467522827685863,
+      "retained": true
+    },
+    {
+      "feature": "relative_top_three_mean",
+      "coefficientWins": 0.0,
+      "retained": false
+    },
+    {
+      "feature": "relative_starter_mean",
+      "coefficientWins": 5.182784804791711,
+      "retained": true
+    },
+    {
+      "feature": "relative_starter_core_mean",
+      "coefficientWins": 0.0,
+      "retained": false
+    },
+    {
+      "feature": "relative_bench_mean",
+      "coefficientWins": 0.0,
+      "retained": false
+    },
+    {
+      "feature": "relative_starter_floor",
+      "coefficientWins": 0.0,
+      "retained": false
+    },
+    {
+      "feature": "relative_bench_floor",
+      "coefficientWins": 0.0,
+      "retained": false
+    },
+    {
+      "feature": "relative_talent_spread",
+      "coefficientWins": 0.0,
+      "retained": false
+    },
+    {
+      "feature": "prior_wins_1",
+      "coefficientWins": 2.3930569361824627,
+      "retained": true
+    },
+    {
+      "feature": "prior_three_year_mean",
+      "coefficientWins": -0.0,
+      "retained": false
+    }
+  ],
+  "expandingValidation": {
+    "model": "rank_calibrated_lasso",
+    "validationRmseWins": 8.869996163128516,
+    "maeWins": 6.955989171540077,
+    "rmseWins": 8.869996163128516,
+    "r2": 0.42962932906905515,
+    "predictionStdWins": 9.640096103241275,
+    "predictionRangeWins": 43.17965123643993,
+    "actualStdWins": 11.744778731655147,
+    "actualRangeWins": 51.00000168,
+    "spreadRatio": 0.8207984435891311
+  },
+  "holdout": {
+    "model": "rank_calibrated_lasso",
+    "validationRmseWins": 8.869996163128516,
+    "maeWins": 8.409843117518939,
+    "rmseWins": 11.236877237446357,
+    "r2": 0.29393804551440617,
+    "predictionStdWins": 9.745138815724209,
+    "predictionRangeWins": 39.46333841168722,
+    "actualStdWins": 13.372857935086333,
+    "actualRangeWins": 51.00000085999999,
+    "spreadRatio": 0.7287252181267785
+  },
+  "minimumValidationSpreadRatio": 0.82,
+  "validationTailBias": {
+    "under30BiasWins": 7.5050125999596595,
+    "fiftyPlusBiasWins": -5.887425588681579
+  },
+  "holdoutTailBias": {
+    "under30BiasWins": 12.708301440408125,
+    "fiftyPlusBiasWins": -7.044336818000676
+  },
+  "currentPredictionStdWins": 9.395906039814886,
+  "currentPredictionRangeWins": 37.535129290532126,
+  "currentPredictionMin": {
+    "team": "Brooklyn Nets",
+    "predicted_wins": 22.339811789427483
+  },
+  "currentPredictionMax": {
+    "team": "Philadelphia 76ers",
+    "predicted_wins": 59.87494107995961
+  },
+  "tabfmError": null,
+  "licenseNote": "TabFM pretrained weights are non-commercial/non-production licensed."
+}

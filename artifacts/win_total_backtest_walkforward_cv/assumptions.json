@@ -1,0 +1,27 @@
+{
+  "model": "walk_forward_cv",
+  "walk_forward": true,
+  "burn_in_seasons": [
+    2014,
+    2015,
+    2016
+  ],
+  "bet_seasons": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "stake_per_team": 10.0,
+  "assumed_american_odds": -110,
+  "win_profit_per_10_at_minus_110": 9.090909090909092,
+  "covid_2019_20": "All bets voided because the scheduled season was shortened; stakes returned.",
+  "selection_rule": "Over if predicted wins > line; Under otherwise.",
+  "line_source": "Basketball-Reference preseason odds tables, credited there to SportsOddsHistory.com"
+}

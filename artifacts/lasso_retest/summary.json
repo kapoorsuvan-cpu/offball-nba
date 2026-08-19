@@ -1,0 +1,79 @@
+{
+  "selectedModel": "lasso_relative_ratings_history_compact",
+  "selectionRule": "Lowest grouped-CV RMSE among Lasso feature views.",
+  "featureMode": "relative_ratings_history_compact",
+  "lassoAlpha": 0.3697293250231616,
+  "lassoModes": {
+    "full": {
+      "alpha": 0.8872249093673785,
+      "cvRmseWins": 8.984404477371779
+    },
+    "no_rank_positions": {
+      "alpha": 0.3697293250231616,
+      "cvRmseWins": 8.97645354647765
+    },
+    "weighted_only": {
+      "alpha": 0.3697293250231616,
+      "cvRmseWins": 8.976610779852109
+    },
+    "relative_weighted": {
+      "alpha": 0.44600997875737275,
+      "cvRmseWins": 9.344996614235587
+    },
+    "relative_ratings": {
+      "alpha": 0.5380284648470621,
+      "cvRmseWins": 9.332804648174598
+    },
+    "relative_ratings_history": {
+      "alpha": 0.47478625165661154,
+      "cvRmseWins": 8.930871677323179
+    },
+    "relative_ratings_history_compact": {
+      "alpha": 0.3697293250231616,
+      "cvRmseWins": 8.914040863458291
+    }
+  },
+  "ridgeAlpha": 100.0,
+  "elasticNetAlpha": 0.3935840199009765,
+  "selectedFeatureCount": 7,
+  "selectedFeatures": [
+    {
+      "feature": "numeric__prior_wins_1",
+      "coefficient_wins": 3.4874892997326845
+    },
+    {
+      "feature": "numeric__relative_rating_2",
+      "coefficient_wins": 2.195985592943336
+    },
+    {
+      "feature": "numeric__relative_star_mean",
+      "coefficient_wins": 1.3763763587660869
+    },
+    {
+      "feature": "numeric__relative_starter_mean",
+      "coefficient_wins": 1.1468939701156298
+    },
+    {
+      "feature": "numeric__relative_rating_6",
+      "coefficient_wins": 0.734180178042501
+    },
+    {
+      "feature": "numeric__prior_wins_3",
+      "coefficient_wins": -0.5342696278060274
+    },
+    {
+      "feature": "numeric__relative_rating_4",
+      "coefficient_wins": 0.5094708102378167
+    }
+  ],
+  "currentPredictionRangeWins": 27.546975099680665,
+  "currentPredictionStdWins": 7.729623979500679,
+  "currentPredictionMin": {
+    "team": "Sacramento Kings",
+    "predicted_wins": 27.451865543487727
+  },
+  "currentPredictionMax": {
+    "team": "San Antonio Spurs",
+    "predicted_wins": 54.99884064316839
+  }
+}

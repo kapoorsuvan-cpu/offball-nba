@@ -377,6 +377,8 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
         <footer className={styles.footer}>
           <span>OFFBALL Scout · actual {data.metadata.statsSeason} regular-season samples</span>
           <div>
+            <a href={data.metadata.depthChartSource}>Depth chart source</a>
+            <a href={data.metadata.ratingsSource}>Ratings source</a>
             <a href={data.metadata.shotSource}>Shot detail source</a>
             <a href={data.metadata.matchupSource}>Matchup source</a>
           </div>

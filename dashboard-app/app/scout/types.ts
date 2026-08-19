@@ -74,6 +74,9 @@ export type ScoutingData = {
     generatedAt: string;
     rosterAuthority: string;
     headshotAuthority: string;
+    ratingsSource: string;
+    depthChartSource: string;
+    rotationMethod: string;
     shotSource: string;
     matchupSource: string;
     teamCount: number;

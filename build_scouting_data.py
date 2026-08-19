@@ -3,8 +3,8 @@
 
 The roster snapshot is sourced from the existing OFFBALL data file. Shooting
 and matchup results are sourced from shufinskiy/nba_data for the 2025-26
-regular season. The requested Kawhi Leonard trade is applied as a roster
-override, including the reported Brandon Ingram and Gradey Dick return.
+regular season. Explicit roster, availability, and coaching overrides keep the
+published rotations aligned with the requested 2026-27 scouting assumptions.
 """
 
 from __future__ import annotations
@@ -28,6 +28,7 @@ from typing import Any, Iterable
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_ROSTERS = ROOT / "dashboard-app/app/data/current-rosters.json"
+DEFAULT_RATINGS = ROOT / "data/2k27_current_ratings.browser.json"
 DEFAULT_OUTPUT = ROOT / "dashboard-app/app/scout/data/scouting-data.json"
 
 SHOT_URL = (
@@ -37,6 +38,11 @@ SHOT_URL = (
 MATCHUP_URL = (
     "https://raw.githubusercontent.com/shufinskiy/nba_data/main/"
     "datasets/matchups_2025.tar.xz"
+)
+DEPTH_CHART_URL = (
+    "https://docs.google.com/spreadsheets/d/e/"
+    "2PACX-1vTi9up0zyRwtsmYQjpMgyUVvR0LMhiG76bZkhe4V7dw7pxf6wm2jww_"
+    "fxzCijIXFN-ogn-CqUhjj2l0/pub?gid=699250664&single=true&output=csv"
 )
 
 ZONE_ORDER = (
@@ -67,10 +73,73 @@ NBA_TO_ROSTER_ABBR = {
     "WAS": "WSH",
 }
 
+DEPTH_TEAM_ABBREVIATIONS = {
+    "ATLANTA HAWKS": "ATL",
+    "BOSTON CELTICS": "BOS",
+    "BROOKLYN NETS": "BKN",
+    "CHARLOTTE HORNETS": "CHA",
+    "CHICAGO BULLS": "CHI",
+    "CLEVELAND CAVS": "CLE",
+    "DALLAS MAVERICKS": "DAL",
+    "DENVER NUGGETS": "DEN",
+    "DETROIT PISTONS": "DET",
+    "GOLDEN STATE WARRIORS": "GS",
+    "HOUSTON ROCKETS": "HOU",
+    "INDIANA PACERS": "IND",
+    "LOS ANGELES CLIPPERS": "LAC",
+    "LOS ANGELES LAKERS": "LAL",
+    "MEMPHIS GRIZZLIES": "MEM",
+    "MIAMI HEAT": "MIA",
+    "MILWAUKEE BUCKS": "MIL",
+    "MINNESOTA TIMBERWOLVES": "MIN",
+    "NEW ORLEANS PELICANS": "NO",
+    "NEW YORK KNICKS": "NY",
+    "OKLAHOMA CITY THUNDER": "OKC",
+    "ORLANDO MAGIC": "ORL",
+    "PHILADELPHIA 76ERS": "PHI",
+    "PHOENIX SUNS": "PHX",
+    "PORTLAND TRAILBLAZERS": "POR",
+    "SACRAMENTO KINGS": "SAC",
+    "SAN ANTONIO SPURS": "SA",
+    "TORONTO RAPTORS": "TOR",
+    "UTAH JAZZ": "UTAH",
+    "WASHINGTON WIZARDS": "WSH",
+}
+
+DEPTH_NAME_ALIASES = {
+    "egordmin": "Egor Demin",
+    "dennisschroder": "Dennis Schroder",
+    "morezjohnson": "Morez Johnson Jr.",
+    "ronholland": "Ronald Holland II",
+    "jimmybutler": "Jimmy Butler III",
+    "robertwilliams": "Robert Williams III",
+    "dariusacuff": "Darius Acuff Jr.",
+    "ggjacksonii": "GG Jackson",
+}
+
+# The published depth chart is the baseline. These explicit user decisions
+# replace one named slot without re-ranking the rest of the unit.
+DEPTH_UNIT_REPLACEMENTS = {
+    "CLE": {"starters": {"Sam Merrill": "James Harden"}},
+    "LAL": {"secondUnit": {"Cameron Carr": "Matisse Thybulle"}},
+    "MIA": {"secondUnit": {"Nikola Jovic": "Nick Richards"}},
+    "PHX": {"secondUnit": {"Luke Kennard": "Haywood Highsmith"}},
+}
+
+DEPTH_ROW_POSITIONS = (
+    frozenset(("C",)),
+    frozenset(("PF", "C")),
+    frozenset(("SF", "PF")),
+    frozenset(("SG", "SF")),
+    frozenset(("PG", "SG")),
+)
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--rosters", type=Path, default=DEFAULT_ROSTERS)
+    parser.add_argument("--ratings", type=Path, default=DEFAULT_RATINGS)
+    parser.add_argument("--depth-charts", type=Path)
     parser.add_argument("--shotdetail", type=Path)
     parser.add_argument("--matchups", type=Path)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
@@ -115,6 +184,70 @@ def open_csv(path: Path | None, url: str, member_name: str) -> io.TextIOBase:
     if path:
         return path.open(encoding="utf-8", newline="")
     return download_csv(url, member_name)
+
+
+def open_depth_chart_csv(path: Path | None) -> io.TextIOBase:
+    if path:
+        return path.open(encoding="utf-8-sig", newline="")
+    request = urllib.request.Request(
+        DEPTH_CHART_URL, headers={"User-Agent": "offball-scout/1.0"}
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=60) as response:
+            csv_text = response.read().decode("utf-8-sig")
+    except URLError:
+        result = subprocess.run(
+            ["curl", "-fsSL", DEPTH_CHART_URL],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        csv_text = result.stdout
+    return io.StringIO(csv_text)
+
+
+def clean_depth_name(value: str) -> str | None:
+    name = re.sub(r"\s*\(\d+\)\s*$", "", value).strip()
+    if not name or name.upper().startswith("OPEN"):
+        return None
+    return DEPTH_NAME_ALIASES.get(normalized_name(name), name)
+
+
+def read_depth_charts(stream: io.TextIOBase) -> dict[str, list[dict[str, str | None]]]:
+    charts: dict[str, list[dict[str, str | None]]] = {}
+    active_abbreviation: str | None = None
+    remaining_rows = 0
+    for row in csv.reader(stream):
+        if not row:
+            continue
+        heading = row[0].strip()
+        if heading in DEPTH_TEAM_ABBREVIATIONS:
+            active_abbreviation = DEPTH_TEAM_ABBREVIATIONS[heading]
+            charts[active_abbreviation] = []
+            remaining_rows = 0
+            continue
+        if active_abbreviation and heading in {"STARTERS", "Player"}:
+            remaining_rows = 5
+            continue
+        if not active_abbreviation or remaining_rows == 0:
+            continue
+        padded = row + [""] * (13 - len(row))
+        charts[active_abbreviation].append(
+            {
+                "starter": clean_depth_name(padded[0]),
+                "second": clean_depth_name(padded[4]),
+                "third": clean_depth_name(padded[8]),
+                "other": clean_depth_name(padded[12]),
+            }
+        )
+        remaining_rows -= 1
+
+    if len(charts) != 30:
+        raise RuntimeError(f"Expected 30 NBA depth charts, received {len(charts)}")
+    malformed = [abbr for abbr, rows in charts.items() if len(rows) != 5]
+    if malformed:
+        raise RuntimeError(f"Depth charts did not contain five position rows: {malformed}")
+    return charts
 
 
 def empty_zone_counts() -> dict[str, dict[str, int]]:
@@ -180,6 +313,120 @@ def apply_kawhi_trade(teams: list[dict[str, Any]]) -> None:
     clippers["players"].extend((ingram, dick))
 
     for team in (toronto, clippers):
+        team["players"].sort(key=lambda player: (-player["rating"], player["name"]))
+        for index, player in enumerate(team["players"], start=1):
+            player["modelRank"] = index
+        team["rosterCount"] = len(team["players"])
+        team["topTen"] = [player["name"] for player in team["players"][:10]]
+
+
+def current_rating_index(rating_teams: list[dict[str, Any]]) -> dict[str, int]:
+    ratings: dict[str, int] = {}
+    for team in rating_teams:
+        for player in team["players"]:
+            ratings[normalized_name(player["player"])] = int(player["rating"])
+    return ratings
+
+
+def refresh_player_ratings(
+    teams: list[dict[str, Any]], rating_teams: list[dict[str, Any]]
+) -> None:
+    ratings = current_rating_index(rating_teams)
+    for team in teams:
+        for player in team["players"]:
+            rating = ratings.get(normalized_name(player["name"]))
+            if rating is not None:
+                player["rating"] = rating
+
+
+def apply_scouting_overrides(teams: list[dict[str, Any]]) -> None:
+    by_abbreviation = {team["abbreviation"]: team for team in teams}
+    miami = by_abbreviation["MIA"]
+    if not any(player["name"] == "Nick Richards" for player in miami["players"]):
+        miami["players"].append(
+            {
+                "id": "4278076",
+                "name": "Nick Richards",
+                "jersey": None,
+                "position": "C",
+                "positions": ["C"],
+                "rating": 75,
+                "headshotUrl": (
+                    "https://a.espncdn.com/i/headshots/nba/players/full/4278076.png"
+                ),
+                "headshotVerified": True,
+                "status": "Active",
+            }
+        )
+
+    phoenix = by_abbreviation["PHX"]
+    if not any(player["name"] == "Haywood Highsmith" for player in phoenix["players"]):
+        phoenix["players"].append(
+            {
+                "id": "4291678",
+                "name": "Haywood Highsmith",
+                "jersey": "7",
+                "position": "SF",
+                "positions": ["SF", "PF"],
+                "rating": 73,
+                "headshotUrl": (
+                    "https://a.espncdn.com/i/headshots/nba/players/full/4291678.png"
+                ),
+                "headshotVerified": True,
+                "status": "Active",
+            }
+        )
+
+    for player in by_abbreviation["GS"]["players"]:
+        if player["name"] == "Jimmy Butler III":
+            player["status"] = "Out · right ACL rehabilitation"
+            break
+    else:
+        raise RuntimeError("Availability override could not find Jimmy Butler III")
+
+    # Keep the user-specified value independent of later source refreshes.
+    richards = next(
+        player for player in miami["players"] if player["name"] == "Nick Richards"
+    )
+    richards["rating"] = 75
+    highsmith = next(
+        player for player in phoenix["players"] if player["name"] == "Haywood Highsmith"
+    )
+    highsmith["rating"] = 73
+
+
+def reconcile_depth_chart_rosters(
+    teams: list[dict[str, Any]],
+    depth_charts: dict[str, list[dict[str, str | None]]],
+) -> None:
+    by_abbreviation = {team["abbreviation"]: team for team in teams}
+    owners: dict[str, dict[str, Any]] = {}
+    players_by_key: dict[str, dict[str, Any]] = {}
+    for team in teams:
+        for player in team["players"]:
+            key = normalized_name(player["name"])
+            owners[key] = team
+            players_by_key[key] = player
+
+    for abbreviation, rows in depth_charts.items():
+        target = by_abbreviation[abbreviation]
+        for row in rows:
+            for tier in ("starter", "second", "third", "other"):
+                name = row[tier]
+                if not name:
+                    continue
+                key = normalized_name(name)
+                player = players_by_key.get(key)
+                owner = owners.get(key)
+                if player is None or owner is None or owner is target:
+                    continue
+                owner["players"].remove(player)
+                target["players"].append(player)
+                owners[key] = target
+
+
+def rerank_rosters(teams: list[dict[str, Any]]) -> None:
+    for team in teams:
         team["players"].sort(key=lambda player: (-player["rating"], player["name"]))
         for index, player in enumerate(team["players"], start=1):
             player["modelRank"] = index
@@ -285,21 +532,119 @@ def matchup_row(values: dict[str, float] | None) -> dict[str, Any]:
     }
 
 
-def projected_units(players: list[dict[str, Any]]) -> dict[str, list[str]]:
-    available = [player for player in players if player.get("status") == "Active"]
-    ordered = sorted(available, key=lambda player: (-player["rating"], player["name"]))
-    rotation = ordered[:10]
+def best_depth_fallback(
+    players: list[dict[str, Any]],
+    accepted_positions: frozenset[str],
+    selected_ids: set[str],
+) -> dict[str, Any]:
+    available = [
+        player
+        for player in players
+        if player.get("status") == "Active" and player["id"] not in selected_ids
+    ]
+    if not available:
+        raise RuntimeError("No available player remained to complete a depth-chart unit")
+
+    def score(player: dict[str, Any]) -> tuple[int, int, str]:
+        positions = player["positions"]
+        primary_fit = bool(positions and positions[0] in accepted_positions)
+        any_fit = bool(accepted_positions.intersection(positions))
+        fit_score = 2 if primary_fit else 1 if any_fit else 0
+        return (fit_score, int(player["rating"]), player["name"])
+
+    return max(available, key=score)
+
+
+def replace_depth_slot(
+    unit: list[dict[str, Any]],
+    old_name: str,
+    new_name: str,
+    players_by_name: dict[str, dict[str, Any]],
+) -> None:
+    try:
+        index = next(i for i, player in enumerate(unit) if player["name"] == old_name)
+    except StopIteration as error:
+        raise RuntimeError(f"Depth-chart override could not find {old_name}") from error
+    incoming = players_by_name.get(normalized_name(new_name))
+    if incoming is None:
+        raise RuntimeError(f"Depth-chart override could not find {new_name}")
+    if incoming.get("status") != "Active":
+        raise RuntimeError(f"Depth-chart override requires unavailable player {new_name}")
+    unit[index] = incoming
+
+
+def projected_units(
+    team_abbreviation: str,
+    players: list[dict[str, Any]],
+    depth_rows: list[dict[str, str | None]],
+) -> dict[str, list[str]]:
+    players_by_name = {normalized_name(player["name"]): player for player in players}
+    selected_ids: set[str] = set()
+    starters_by_row: list[dict[str, Any]] = []
+
+    def choose(names: Iterable[str | None]) -> dict[str, Any] | None:
+        for name in names:
+            if not name:
+                continue
+            player = players_by_name.get(normalized_name(name))
+            if (
+                player
+                and player.get("status") == "Active"
+                and player["id"] not in selected_ids
+            ):
+                return player
+        return None
+
+    for row_index, row in enumerate(depth_rows):
+        player = choose((row["starter"], row["second"], row["third"], row["other"]))
+        if player is None:
+            player = best_depth_fallback(
+                players, DEPTH_ROW_POSITIONS[row_index], selected_ids
+            )
+        starters_by_row.append(player)
+        selected_ids.add(player["id"])
+
+    second_unit_by_row: list[dict[str, Any]] = []
+    for row_index, row in enumerate(depth_rows):
+        player = choose((row["second"], row["third"], row["other"], row["starter"]))
+        if player is None:
+            player = best_depth_fallback(
+                players, DEPTH_ROW_POSITIONS[row_index], selected_ids
+            )
+        second_unit_by_row.append(player)
+        selected_ids.add(player["id"])
+
+    # The source sheet is ordered C-to-PG; the UI reads naturally PG-to-C.
+    starters = list(reversed(starters_by_row))
+    second_unit = list(reversed(second_unit_by_row))
+    replacements = DEPTH_UNIT_REPLACEMENTS.get(team_abbreviation, {})
+    for old_name, new_name in replacements.get("starters", {}).items():
+        replace_depth_slot(starters, old_name, new_name, players_by_name)
+    for old_name, new_name in replacements.get("secondUnit", {}).items():
+        replace_depth_slot(second_unit, old_name, new_name, players_by_name)
+
+    starter_ids = {player["id"] for player in starters}
+    second_ids = {player["id"] for player in second_unit}
+    if len(starter_ids) != 5 or len(second_ids) != 5 or starter_ids & second_ids:
+        raise RuntimeError(f"{team_abbreviation} depth chart did not produce ten unique players")
     return {
-        "starters": [player["id"] for player in rotation[:5]],
-        "secondUnit": [player["id"] for player in rotation[5:10]],
+        "starters": [player["id"] for player in starters],
+        "secondUnit": [player["id"] for player in second_unit],
     }
 
 
 def main() -> None:
     args = parse_args()
     source = json.loads(args.rosters.read_text())
+    rating_teams = json.loads(args.ratings.read_text())
+    with open_depth_chart_csv(args.depth_charts) as stream:
+        depth_charts = read_depth_charts(stream)
     teams = source["teams"]
     apply_kawhi_trade(teams)
+    refresh_player_ratings(teams, rating_teams)
+    apply_scouting_overrides(teams)
+    reconcile_depth_chart_rosters(teams, depth_charts)
+    rerank_rosters(teams)
     team_name_to_abbr = {
         normalized_name(team["name"]): team["abbreviation"] for team in teams
     }
@@ -355,7 +700,9 @@ def main() -> None:
                 "logoUrl": team["logoUrl"],
                 "color": team["color"],
                 "players": players,
-                "projected": projected_units(players),
+                "projected": projected_units(
+                    team["abbreviation"], players, depth_charts[team["abbreviation"]]
+                ),
                 "defenseZones": zone_rows(
                     team_defense.get(team["abbreviation"], empty_zone_counts()), league
                 ),
@@ -371,6 +718,9 @@ def main() -> None:
             "generatedAt": datetime.now(timezone.utc).isoformat(),
             "rosterAuthority": source["metadata"]["rosterAuthority"],
             "headshotAuthority": source["metadata"]["headshotAuthority"],
+            "ratingsSource": "https://www.2kratings.com/teams",
+            "depthChartSource": "https://www.nbadepthcharts.com",
+            "rotationMethod": "NBA Depth Charts starters and second string with availability overrides",
             "shotSource": SHOT_URL,
             "matchupSource": MATCHUP_URL,
             "teamCount": len(output_teams),

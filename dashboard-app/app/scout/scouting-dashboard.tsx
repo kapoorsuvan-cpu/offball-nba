@@ -89,6 +89,10 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
     [team],
   );
   const rotation = useMemo(() => unitPlayers(team, rotationIds), [rotationIds, team]);
+  const rosterPlayers = useMemo(() => {
+    const rotationIdSet = new Set(rotationIds);
+    return [...rotation, ...team.players.filter((item) => !rotationIdSet.has(item.id))];
+  }, [rotation, rotationIds, team.players]);
   const player = team.players.find((item) => item.id === selectedPlayerId) ?? rotation[0] ?? team.players[0];
   const starters = unitPlayers(team, team.projected.starters);
   const secondUnit = unitPlayers(team, team.projected.secondUnit);
@@ -185,13 +189,13 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
           <section className={styles.rotationColumn}>
             <div className={styles.panelHeading}>
               <div>
-                <p>Projected depth</p>
-                <h2>10-man rotation</h2>
+                <p>{team.players.length} players · projected depth first</p>
+                <h2>Full team roster</h2>
               </div>
               <span>OVR</span>
             </div>
             <div className={styles.rotationList}>
-              {rotation.map((rotationPlayer, index) => (
+              {rosterPlayers.map((rotationPlayer, index) => (
                 <button
                   key={rotationPlayer.id}
                   onClick={() => setSelectedPlayerId(rotationPlayer.id)}
@@ -203,7 +207,13 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
                   <span className={styles.rotationName}>
                     <strong>{rotationPlayer.name}</strong>
                     <small>
-                      {index < 5 ? "Starter" : "Second unit"} · {rotationPlayer.position} · {rotationPlayer.offense.attempts} FGA
+                      {index < 5
+                        ? "Starter"
+                        : index < 10
+                          ? "Second unit"
+                          : rotationPlayer.status === "Active"
+                            ? "Roster"
+                            : rotationPlayer.status} · {rotationPlayer.position} · {rotationPlayer.offense.attempts} FGA
                     </small>
                   </span>
                   <strong className={styles.rating}>{rotationPlayer.rating}</strong>

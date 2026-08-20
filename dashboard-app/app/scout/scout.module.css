@@ -83,18 +83,6 @@
   letter-spacing: -0.025em;
 }
 
-.teamPickerHeading > span {
-  display: grid;
-  width: 27px;
-  height: 27px;
-  place-items: center;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.06);
-  color: #c5d1dc;
-  font-size: 10px;
-  font-weight: 800;
-}
-
 .searchBox {
   display: block;
   padding: 0 12px 10px;

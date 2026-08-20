@@ -131,7 +131,6 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
             <p>League</p>
             <h2>All 30 teams</h2>
           </div>
-          <span>{visibleTeams.length}</span>
         </div>
         <label className={styles.searchBox}>
           <span className={styles.srOnly}>Search teams</span>

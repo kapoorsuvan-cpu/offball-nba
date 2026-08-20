@@ -285,6 +285,7 @@
 .rotationList,
 .injuryCard,
 .playerHeader,
+.playerStatsCard,
 .heatmapCard,
 .dataCues,
 .splitCard,
@@ -516,6 +517,114 @@
 .playerSample strong {
   margin-top: 4px;
   font-size: 12px;
+}
+
+.playerStatsCard {
+  padding: 10px 13px;
+  border-radius: 10px;
+}
+
+.playerStatsHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.playerStatsHeading p,
+.playerStatsHeading h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.playerStatsHeading p {
+  color: #8fa2b6;
+  font-size: 8px;
+  font-weight: 760;
+  letter-spacing: 0.12em;
+}
+
+.playerStatsHeading h3 {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.playerStatsHeading > span {
+  color: var(--scout-muted);
+  font-size: 8px;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.playerStatsGroups {
+  display: grid;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.playerStatsGroup {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  align-items: center;
+  gap: 7px;
+}
+
+.playerStatsGroup > strong {
+  color: #7f93a7;
+  font-size: 7px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.playerStatsGridTraditional,
+.playerStatsGridAdvanced {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.playerStatsGridTraditional {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+.playerStatsGridAdvanced {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.playerStat {
+  min-width: 0;
+  padding: 5px 3px;
+  border: 1px solid rgba(151, 176, 201, 0.12);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.02);
+  text-align: center;
+}
+
+.playerStat span,
+.playerStat strong {
+  display: block;
+}
+
+.playerStat span {
+  color: #8195a8;
+  font-size: 7px;
+  font-weight: 760;
+}
+
+.playerStat strong {
+  margin-top: 2px;
+  font-size: 10px;
+}
+
+.playerStatsGridAdvanced .playerStat strong {
+  color: var(--scout-green);
+}
+
+.noSeasonStats {
+  margin: 11px 0 2px;
+  color: #93a6b8;
+  font-size: 9px;
 }
 
 .heatmapGrid {
@@ -1167,6 +1276,18 @@
     text-align: left;
   }
 
+  .playerStatsGroup {
+    grid-template-columns: 1fr;
+  }
+
+  .playerStatsGridTraditional {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .playerStatsGridAdvanced {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .court {
     height: 410px;
   }
@@ -1192,5 +1313,9 @@
   .footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .footer div {
+    flex-wrap: wrap;
   }
 }

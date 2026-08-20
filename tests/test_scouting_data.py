@@ -78,6 +78,21 @@ class ScoutingDataTests(unittest.TestCase):
         self.assertEqual(metadata["teamCount"], 30)
         self.assertEqual(metadata["depthChartSource"], "https://www.nbadepthcharts.com")
         self.assertEqual(metadata["ratingsSource"], "https://www.2kratings.com/teams")
+        self.assertIn("espn.com", metadata["playerStatsSource"])
+        self.assertEqual(
+            metadata["advancedStatsSource"],
+            "https://www.basketball-reference.com/leagues/NBA_2026_advanced.html",
+        )
+
+    def test_keyonte_george_stats_and_headshot_fallback(self) -> None:
+        keyonte = self.player("UTAH", "Keyonte George")
+        stats = keyonte["seasonStats"]
+        self.assertEqual(stats["games"], 54)
+        self.assertAlmostEqual(stats["points"], 23.6)
+        self.assertAlmostEqual(stats["assists"], 6.1)
+        self.assertAlmostEqual(stats["tsPct"], 60.9)
+        self.assertAlmostEqual(stats["bpm"], 0.9)
+        self.assertTrue(keyonte["headshotFallbackUrl"].endswith("/1641718.png"))
 
 
 if __name__ == "__main__":

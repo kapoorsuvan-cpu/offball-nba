@@ -20,6 +20,10 @@ function formatPct(value: number | null) {
   return value === null ? "—" : `${value.toFixed(1)}%`;
 }
 
+function formatNumber(value: number | null, digits = 1) {
+  return value === null ? "—" : value.toFixed(digits);
+}
+
 function signed(value: number | null) {
   if (value === null) return "—";
   return `${value > 0 ? "+" : ""}${value.toFixed(1)}`;
@@ -49,6 +53,15 @@ function Metric({ label, value, detail }: { label: string; value: string; detail
   );
 }
 
+function PlayerStat({ label, value, title }: { label: string; value: string; title?: string }) {
+  return (
+    <div className={styles.playerStat} title={title}>
+      <span>{label}</span>
+      <strong>{value}</strong>
+    </div>
+  );
+}
+
 function UnitCard({ title, players, tone }: { title: string; players: ScoutPlayer[]; tone: "green" | "blue" }) {
   return (
     <section className={`${styles.unitCard} ${tone === "green" ? styles.unitGreen : styles.unitBlue}`}>
@@ -62,7 +75,12 @@ function UnitCard({ title, players, tone }: { title: string; players: ScoutPlaye
       <div className={styles.unitPlayers}>
         {players.map((player) => (
           <div className={styles.unitPlayer} key={player.id}>
-            <PlayerImage name={player.name} src={player.headshotUrl} size={54} />
+            <PlayerImage
+              name={player.name}
+              src={player.headshotUrl}
+              fallbackSrc={player.headshotFallbackUrl}
+              size={54}
+            />
             <strong>{player.name}</strong>
             <span>{player.position} · {player.rating} OVR</span>
           </div>
@@ -203,7 +221,12 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
                   aria-pressed={rotationPlayer.id === player.id}
                 >
                   <span className={styles.rotationRank}>{index + 1}</span>
-                  <PlayerImage name={rotationPlayer.name} src={rotationPlayer.headshotUrl} size={42} />
+                  <PlayerImage
+                    name={rotationPlayer.name}
+                    src={rotationPlayer.headshotUrl}
+                    fallbackSrc={rotationPlayer.headshotFallbackUrl}
+                    size={42}
+                  />
                   <span className={styles.rotationName}>
                     <strong>{rotationPlayer.name}</strong>
                     <small>
@@ -246,7 +269,13 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
 
           <section className={styles.analysisColumn}>
             <div className={styles.playerHeader}>
-              <PlayerImage name={player.name} src={player.headshotUrl} size={76} priority />
+              <PlayerImage
+                name={player.name}
+                src={player.headshotUrl}
+                fallbackSrc={player.headshotFallbackUrl}
+                size={76}
+                priority
+              />
               <div>
                 <p>Selected player</p>
                 <h2>{player.name}</h2>
@@ -257,6 +286,52 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
                 <strong>{player.offense.attempts.toLocaleString()} FGA</strong>
               </div>
             </div>
+
+            <section className={styles.playerStatsCard}>
+              <div className={styles.playerStatsHeading}>
+                <div>
+                  <p>2025–26 regular season</p>
+                  <h3>Production + efficiency</h3>
+                </div>
+                <span>
+                  {player.seasonStats.games
+                    ? `${player.seasonStats.games} GP · ${formatNumber(player.seasonStats.minutes)} MPG`
+                    : "No NBA sample"}
+                </span>
+              </div>
+              {player.seasonStats.games ? (
+                <div className={styles.playerStatsGroups}>
+                  <div className={styles.playerStatsGroup}>
+                    <strong>Per game</strong>
+                    <div className={styles.playerStatsGridTraditional}>
+                      <PlayerStat label="PTS" value={formatNumber(player.seasonStats.points)} />
+                      <PlayerStat label="REB" value={formatNumber(player.seasonStats.rebounds)} />
+                      <PlayerStat label="AST" value={formatNumber(player.seasonStats.assists)} />
+                      <PlayerStat label="STL" value={formatNumber(player.seasonStats.steals)} />
+                      <PlayerStat label="BLK" value={formatNumber(player.seasonStats.blocks)} />
+                      <PlayerStat label="FG%" value={formatPct(player.seasonStats.fgPct)} />
+                      <PlayerStat label="3P%" value={formatPct(player.seasonStats.threePct)} />
+                      <PlayerStat label="FT%" value={formatPct(player.seasonStats.ftPct)} />
+                    </div>
+                  </div>
+                  <div className={styles.playerStatsGroup}>
+                    <strong>Advanced</strong>
+                    <div className={styles.playerStatsGridAdvanced}>
+                      <PlayerStat label="TS%" value={formatPct(player.seasonStats.tsPct)} title="True shooting percentage" />
+                      <PlayerStat label="eFG%" value={formatPct(player.seasonStats.effectiveFgPct)} title="Effective field-goal percentage" />
+                      <PlayerStat label="AST/TO" value={formatNumber(player.seasonStats.assistTurnoverRatio, 2)} />
+                      <PlayerStat label="USG%" value={formatPct(player.seasonStats.usagePct)} title="Usage percentage" />
+                      <PlayerStat label="PER" value={formatNumber(player.seasonStats.per)} title="Player Efficiency Rating" />
+                      <PlayerStat label="BPM" value={formatNumber(player.seasonStats.bpm)} title="Box Plus/Minus" />
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <p className={styles.noSeasonStats}>
+                  No verified 2025–26 NBA regular-season statistics are available for this player.
+                </p>
+              )}
+            </section>
 
             <div className={styles.heatmapGrid}>
               <CourtHeatmap
@@ -390,6 +465,8 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
             <a href={data.metadata.ratingsSource}>Ratings source</a>
             <a href={data.metadata.shotSource}>Shot detail source</a>
             <a href={data.metadata.matchupSource}>Matchup source</a>
+            <a href={data.metadata.playerStatsSource}>Player stats</a>
+            <a href={data.metadata.advancedStatsSource}>Advanced stats</a>
           </div>
         </footer>
       </section>

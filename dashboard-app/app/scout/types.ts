@@ -32,6 +32,25 @@ export type MatchupDefense = {
   blocks: number;
 };
 
+export type PlayerSeasonStats = {
+  games: number;
+  minutes: number | null;
+  points: number | null;
+  rebounds: number | null;
+  assists: number | null;
+  steals: number | null;
+  blocks: number | null;
+  fgPct: number | null;
+  threePct: number | null;
+  ftPct: number | null;
+  tsPct: number | null;
+  effectiveFgPct: number | null;
+  assistTurnoverRatio: number | null;
+  usagePct: number | null;
+  per: number | null;
+  bpm: number | null;
+};
+
 export type ScoutPlayer = {
   id: string;
   name: string;
@@ -40,8 +59,10 @@ export type ScoutPlayer = {
   positions: string[];
   rating: number;
   headshotUrl: string | null;
+  headshotFallbackUrl: string | null;
   headshotVerified: boolean;
   status: string;
+  seasonStats: PlayerSeasonStats;
   offense: {
     attempts: number;
     made: number;
@@ -79,10 +100,13 @@ export type ScoutingData = {
     rotationMethod: string;
     shotSource: string;
     matchupSource: string;
+    playerStatsSource: string;
+    advancedStatsSource: string;
     teamCount: number;
     playerCount: number;
     playersWithOffense: number;
     playersWithDefense: number;
+    playersWithSeasonStats: number;
     skippedTeamShotRows: number;
   };
   teams: ScoutTeam[];

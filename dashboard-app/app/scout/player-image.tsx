@@ -7,12 +7,16 @@ import styles from "./scout.module.css";
 type PlayerImageProps = {
   name: string;
   src: string | null;
+  fallbackSrc?: string | null;
   size?: number;
   priority?: boolean;
 };
 
-export function PlayerImage({ name, src, size = 42, priority = false }: PlayerImageProps) {
-  const [failed, setFailed] = useState(false);
+export function PlayerImage({ name, src, fallbackSrc, size = 42, priority = false }: PlayerImageProps) {
+  const [failedSources, setFailedSources] = useState<string[]>([]);
+  const activeSource = [src, fallbackSrc].find(
+    (candidate): candidate is string => Boolean(candidate && !failedSources.includes(candidate)),
+  );
   const initials = name
     .split(" ")
     .slice(0, 2)
@@ -21,17 +25,17 @@ export function PlayerImage({ name, src, size = 42, priority = false }: PlayerIm
 
   return (
     <span className={styles.playerImage} style={{ width: size, height: size }}>
-      {!src || failed ? (
+      {!activeSource ? (
         <span className={styles.playerInitials}>{initials}</span>
       ) : (
         <Image
-          src={src}
+          src={activeSource}
           alt={`${name} headshot`}
           width={size}
           height={size}
           sizes={`${size}px`}
           preload={priority}
-          onError={() => setFailed(true)}
+          onError={() => setFailedSources((current) => [...new Set([...current, activeSource])])}
         />
       )}
     </span>

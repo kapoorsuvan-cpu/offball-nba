@@ -19,6 +19,7 @@ import tarfile
 import tempfile
 import unicodedata
 import urllib.request
+from html.parser import HTMLParser
 from urllib.error import URLError
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -39,6 +40,12 @@ MATCHUP_URL = (
     "https://raw.githubusercontent.com/shufinskiy/nba_data/main/"
     "datasets/matchups_2025.tar.xz"
 )
+ESPN_PLAYER_STATS_URL = (
+    "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/"
+    "statistics/byathlete?region=us&lang=en&contentorigin=espn&isqualified=false&"
+    "page=1&limit=1000&sort=offensive.avgPoints:desc&season=2026&seasontype=2"
+)
+ADVANCED_STATS_URL = "https://www.basketball-reference.com/leagues/NBA_2026_advanced.html"
 DEPTH_CHART_URL = (
     "https://docs.google.com/spreadsheets/d/e/"
     "2PACX-1vTi9up0zyRwtsmYQjpMgyUVvR0LMhiG76bZkhe4V7dw7pxf6wm2jww_"
@@ -142,6 +149,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--depth-charts", type=Path)
     parser.add_argument("--shotdetail", type=Path)
     parser.add_argument("--matchups", type=Path)
+    parser.add_argument("--player-stats", type=Path)
+    parser.add_argument("--advanced-stats", type=Path)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     return parser.parse_args()
 
@@ -151,11 +160,53 @@ def normalized_name(value: str) -> str:
     return re.sub(r"[^a-z0-9]", "", ascii_value.lower())
 
 
+def stat_name_key(value: str) -> str:
+    ascii_value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
+    without_suffix = re.sub(r"\b(jr|sr|ii|iii|iv)\b", "", ascii_value.lower())
+    return re.sub(r"[^a-z0-9]", "", without_suffix)
+
+
 def number(value: str | None) -> float:
     try:
         return float(value or 0)
     except ValueError:
         return 0.0
+
+
+def optional_number(value: Any) -> float | None:
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def download_text(url: str, timeout: int = 90) -> str:
+    request = urllib.request.Request(url, headers={"User-Agent": "offball-scout/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return response.read().decode("utf-8")
+    except URLError:
+        result = subprocess.run(
+            ["curl", "-fsSL", "-A", "offball-scout/1.0", url],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        return result.stdout
+
+
+def open_json(path: Path | None, url: str) -> dict[str, Any]:
+    if path:
+        return json.loads(path.read_text())
+    return json.loads(download_text(url))
+
+
+def open_text(path: Path | None, url: str) -> str:
+    if path:
+        return path.read_text()
+    return download_text(url)
 
 
 def download_csv(url: str, member_name: str) -> io.TextIOWrapper:
@@ -465,11 +516,13 @@ def read_shots(
     dict[str, dict[str, dict[str, int]]],
     dict[str, dict[str, dict[str, int]]],
     dict[str, dict[str, int]],
+    dict[str, str],
     int,
 ]:
     offense: dict[str, dict[str, dict[str, int]]] = defaultdict(empty_zone_counts)
     defense: dict[str, dict[str, dict[str, int]]] = defaultdict(empty_zone_counts)
     league = empty_zone_counts()
+    nba_player_ids: dict[str, str] = {}
     skipped_team_rows = 0
 
     for row in csv.DictReader(stream):
@@ -478,6 +531,7 @@ def read_shots(
             continue
         made = int(number(row["SHOT_MADE_FLAG"]))
         player_key = normalized_name(row["PLAYER_NAME"])
+        nba_player_ids[player_key] = row["PLAYER_ID"]
         add_shot(offense[player_key], zone, made)
         add_shot(league, zone, made)
 
@@ -490,7 +544,148 @@ def read_shots(
         defense_abbr = away_abbr if offense_abbr == home_abbr else home_abbr
         add_shot(defense[defense_abbr], zone, made)
 
-    return offense, defense, league, skipped_team_rows
+    return offense, defense, league, nba_player_ids, skipped_team_rows
+
+
+def read_player_stats(
+    payload: dict[str, Any],
+) -> tuple[dict[str, dict[str, Any]], dict[str, dict[str, Any]]]:
+    category_names = {
+        category["name"]: category["names"] for category in payload["categories"]
+    }
+    by_id: dict[str, dict[str, Any]] = {}
+    by_name: dict[str, dict[str, Any]] = {}
+    for item in payload["athletes"]:
+        values: dict[str, Any] = {}
+        for category in item["categories"]:
+            names = category_names.get(category["name"], [])
+            values.update(dict(zip(names, category["values"])))
+        athlete = item["athlete"]
+        stats = {"values": values, "headshotUrl": athlete.get("headshot")}
+        by_id[str(athlete["id"])] = stats
+        by_name[stat_name_key(athlete["displayName"])] = stats
+    return by_id, by_name
+
+
+class AdvancedStatsParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.in_table = False
+        self.current_row: dict[str, str] | None = None
+        self.current_stat: str | None = None
+        self.cell_parts: list[str] = []
+        self.rows: list[dict[str, str]] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attributes = dict(attrs)
+        if tag == "table" and attributes.get("id") == "advanced":
+            self.in_table = True
+        elif self.in_table and tag == "tr":
+            self.current_row = {}
+        elif self.in_table and tag in {"td", "th"} and self.current_row is not None:
+            self.current_stat = attributes.get("data-stat")
+            self.cell_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self.current_stat is not None:
+            self.cell_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in {"td", "th"} and self.current_row is not None and self.current_stat:
+            self.current_row[self.current_stat] = "".join(self.cell_parts).strip()
+            self.current_stat = None
+            self.cell_parts = []
+        elif tag == "tr" and self.current_row is not None:
+            if self.current_row.get("name_display") not in {None, "Player", "League Average"}:
+                self.rows.append(self.current_row)
+            self.current_row = None
+        elif tag == "table" and self.in_table:
+            self.in_table = False
+
+
+def read_advanced_stats(html: str) -> dict[str, dict[str, float | None]]:
+    parser = AdvancedStatsParser()
+    parser.feed(html)
+    advanced: dict[str, dict[str, float | None]] = {}
+    games_by_name: dict[str, int] = {}
+    for row in parser.rows:
+        key = stat_name_key(row["name_display"])
+        games = int(optional_number(row.get("games")) or 0)
+        # If Basketball Reference includes team splits, retain the aggregate or
+        # the row with the largest sample.
+        if key in advanced and games <= games_by_name[key]:
+            continue
+        ts_pct = optional_number(row.get("ts_pct"))
+        advanced[key] = {
+            "tsPct": round(ts_pct * 100, 1) if ts_pct is not None else None,
+            "per": optional_number(row.get("per")),
+            "usagePct": optional_number(row.get("usg_pct")),
+            "bpm": optional_number(row.get("bpm")),
+        }
+        games_by_name[key] = games
+    return advanced
+
+
+def season_stats_row(
+    traditional: dict[str, Any] | None,
+    advanced: dict[str, float | None] | None,
+) -> dict[str, Any]:
+    empty = {
+        "games": 0,
+        "minutes": None,
+        "points": None,
+        "rebounds": None,
+        "assists": None,
+        "steals": None,
+        "blocks": None,
+        "fgPct": None,
+        "threePct": None,
+        "ftPct": None,
+        "tsPct": None,
+        "effectiveFgPct": None,
+        "assistTurnoverRatio": None,
+        "usagePct": None,
+        "per": None,
+        "bpm": None,
+    }
+    if traditional is None:
+        return {**empty, **(advanced or {})}
+
+    values = traditional["values"]
+    fgm = optional_number(values.get("fieldGoalsMade"))
+    fga = optional_number(values.get("fieldGoalsAttempted"))
+    three_pm = optional_number(values.get("threePointFieldGoalsMade"))
+    points = optional_number(values.get("points"))
+    fta = optional_number(values.get("freeThrowsAttempted"))
+    assists = optional_number(values.get("assists"))
+    turnovers = optional_number(values.get("turnovers"))
+    ts_denominator = 2 * (fga + 0.44 * fta) if fga is not None and fta is not None else 0
+
+    return {
+        "games": int(optional_number(values.get("gamesPlayed")) or 0),
+        "minutes": round(optional_number(values.get("avgMinutes")) or 0, 1),
+        "points": round(optional_number(values.get("avgPoints")) or 0, 1),
+        "rebounds": round(optional_number(values.get("avgRebounds")) or 0, 1),
+        "assists": round(optional_number(values.get("avgAssists")) or 0, 1),
+        "steals": round(optional_number(values.get("avgSteals")) or 0, 1),
+        "blocks": round(optional_number(values.get("avgBlocks")) or 0, 1),
+        "fgPct": round(optional_number(values.get("fieldGoalPct")) or 0, 1),
+        "threePct": round(optional_number(values.get("threePointFieldGoalPct")) or 0, 1),
+        "ftPct": round(optional_number(values.get("freeThrowPct")) or 0, 1),
+        "tsPct": round(100 * points / ts_denominator, 1)
+        if points is not None and ts_denominator
+        else None,
+        "effectiveFgPct": round(100 * (fgm + 0.5 * three_pm) / fga, 1)
+        if fgm is not None and three_pm is not None and fga
+        else None,
+        "assistTurnoverRatio": round(assists / turnovers, 2)
+        if assists is not None and turnovers
+        else None,
+        "usagePct": None,
+        "per": None,
+        "bpm": None,
+        **(advanced or {}),
+    }
 
 
 def read_matchups(stream: io.TextIOBase) -> dict[str, dict[str, float]]:
@@ -675,14 +870,21 @@ def main() -> None:
     }
 
     with open_csv(args.shotdetail, SHOT_URL, "shotdetail_2025.csv") as stream:
-        offense, team_defense, league, skipped_team_rows = read_shots(
+        offense, team_defense, league, nba_player_ids, skipped_team_rows = read_shots(
             stream, team_name_to_abbr
         )
     with open_csv(args.matchups, MATCHUP_URL, "matchups_2025.csv") as stream:
         defenders = read_matchups(stream)
+    player_stats_by_id, player_stats_by_name = read_player_stats(
+        open_json(args.player_stats, ESPN_PLAYER_STATS_URL)
+    )
+    advanced_stats = read_advanced_stats(
+        open_text(args.advanced_stats, ADVANCED_STATS_URL)
+    )
 
     matched_offense = 0
     matched_defense = 0
+    matched_season_stats = 0
     output_teams: list[dict[str, Any]] = []
     for team in teams:
         players: list[dict[str, Any]] = []
@@ -690,11 +892,20 @@ def main() -> None:
             key = normalized_name(player["name"])
             offense_counts = offense.get(key, empty_zone_counts())
             defense_values = defenders.get(key)
+            traditional_stats = player_stats_by_id.get(str(player["id"])) or player_stats_by_name.get(
+                stat_name_key(player["name"])
+            )
+            season_stats = season_stats_row(
+                traditional_stats, advanced_stats.get(stat_name_key(player["name"]))
+            )
             offense_attempts = sum(item["attempts"] for item in offense_counts.values())
             if offense_attempts:
                 matched_offense += 1
             if defense_values and defense_values["fga"]:
                 matched_defense += 1
+            if season_stats["games"]:
+                matched_season_stats += 1
+            nba_player_id = nba_player_ids.get(key)
             players.append(
                 {
                     "id": player["id"],
@@ -703,9 +914,17 @@ def main() -> None:
                     "position": player["position"],
                     "positions": player["positions"],
                     "rating": player["rating"],
-                    "headshotUrl": player["headshotUrl"],
+                    "headshotUrl": player["headshotUrl"] or (
+                        traditional_stats.get("headshotUrl") if traditional_stats else None
+                    ),
+                    "headshotFallbackUrl": (
+                        f"https://cdn.nba.com/headshots/nba/latest/1040x760/{nba_player_id}.png"
+                        if nba_player_id
+                        else None
+                    ),
                     "headshotVerified": player["headshotVerified"],
                     "status": player["status"],
+                    "seasonStats": season_stats,
                     "offense": {
                         "attempts": offense_attempts,
                         "made": sum(item["made"] for item in offense_counts.values()),
@@ -748,10 +967,13 @@ def main() -> None:
             "rotationMethod": "NBA Depth Charts starters and second string with availability overrides",
             "shotSource": SHOT_URL,
             "matchupSource": MATCHUP_URL,
+            "playerStatsSource": ESPN_PLAYER_STATS_URL,
+            "advancedStatsSource": ADVANCED_STATS_URL,
             "teamCount": len(output_teams),
             "playerCount": sum(len(team["players"]) for team in output_teams),
             "playersWithOffense": matched_offense,
             "playersWithDefense": matched_defense,
+            "playersWithSeasonStats": matched_season_stats,
             "skippedTeamShotRows": skipped_team_rows,
         },
         "teams": output_teams,

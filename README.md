@@ -5,6 +5,38 @@ This project builds a 300-row matrix (30 NBA teams × 10 completed seasons,
 percentage and its 10 highest HoopsHype NBA 2K ratings, player names, and
 corresponding positions.
 
+## NBA scouting dashboard
+
+The Next.js app also includes a scouting report at `/scout` with:
+
+- all 30 current roster snapshots, ESPN team logos, and player headshots;
+- NBA Depth Charts starters and second units (10 players per team), with explicit
+  availability and roster overrides applied during the build;
+- player shooting-zone volume and accuracy from the 2025-26 regular season;
+- team defensive shooting concessions by zone;
+- player-level on-ball matchup results where the source has a qualifying sample.
+
+The shooting and matchup summaries are built from the `shotdetail_2025` and
+`matchups_2025` archives in
+[`shufinskiy/nba_data`](https://github.com/shufinskiy/nba_data). Defensive shot
+coordinates in that source are team-level; player defense is therefore shown
+separately from the court map rather than inferred. Live day-by-day injury data
+is intentionally not connected in this version.
+
+Rotation order is downloaded from
+[`nbadepthcharts.com`](https://www.nbadepthcharts.com) when the scouting bundle
+is generated. Current ratings come from
+[`2kratings.com`](https://www.2kratings.com/teams). The builder fails if a named
+override no longer matches its source slot, which prevents a quiet fallback to
+an invented lineup.
+
+Regenerate the compact browser data file with:
+
+```bash
+cd dashboard-app
+npm run build:scout-data
+```
+
 ## Data sources
 
 - **Player names and ratings:** HoopsHype's historical NBA 2K player pages.

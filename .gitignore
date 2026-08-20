@@ -1,6 +1,7 @@
 .cache/
 __pycache__/
 *.py[cod]
+*.tsbuildinfo
 .DS_Store
 dashboard-app/node_modules/
 dashboard-app/.next/

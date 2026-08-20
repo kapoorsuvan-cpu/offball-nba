@@ -67,9 +67,10 @@ class ScoutingDataTests(unittest.TestCase):
         wizards = {player["name"] for player in self.teams["WSH"]["players"]}
         hornets = {player["name"] for player in self.teams["CHA"]["players"]}
         nuggets = {player["name"] for player in self.teams["DEN"]["players"]}
-        self.assertTrue({"Peyton Watson", "Cam Whitmore"}.issubset(cleveland))
+        self.assertIn("Peyton Watson", cleveland)
         self.assertEqual(self.player("CLE", "Peyton Watson")["rating"], 81)
-        self.assertIn("Max Strus", clippers)
+        self.assertNotIn("Cam Whitmore", cleveland)
+        self.assertTrue({"Cam Whitmore", "Max Strus"}.issubset(clippers))
         self.assertIn("Tre Mann", wizards)
         self.assertIn("Dennis Schroder", hornets)
         self.assertNotIn("Julian Reese", nuggets)
@@ -79,6 +80,7 @@ class ScoutingDataTests(unittest.TestCase):
         self.assertEqual(metadata["teamCount"], 30)
         self.assertEqual(metadata["depthChartSource"], "https://www.nbadepthcharts.com")
         self.assertEqual(metadata["ratingsSource"], "https://www.2kratings.com/teams")
+        self.assertEqual(metadata["rosterSnapshotAt"], "2026-08-20T00:00:00+00:00")
         self.assertIn("espn.com", metadata["playerStatsSource"])
         self.assertEqual(
             metadata["advancedStatsSource"],

@@ -91,6 +91,7 @@ export type ScoutingData = {
   metadata: {
     statsSeason: string;
     rosterSeason: string;
+    rosterSnapshotAt: string;
     sourceRosterGeneratedAt: string;
     generatedAt: string;
     rosterAuthority: string;

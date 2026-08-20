@@ -31,6 +31,7 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_ROSTERS = ROOT / "dashboard-app/app/data/current-rosters.json"
 DEFAULT_RATINGS = ROOT / "data/2k27_current_ratings.browser.json"
 DEFAULT_OUTPUT = ROOT / "dashboard-app/app/scout/data/scouting-data.json"
+ROSTER_SNAPSHOT_AT = "2026-08-20T00:00:00+00:00"
 
 SHOT_URL = (
     "https://raw.githubusercontent.com/shufinskiy/nba_data/main/"
@@ -386,7 +387,7 @@ def apply_payton_watson_trade(teams: list[dict[str, Any]]) -> None:
         by_abbreviation[destination]["players"].append(take(player_name))
 
     send("Peyton Watson", "CLE")
-    send("Cam Whitmore", "CLE")
+    send("Cam Whitmore", "LAC")
     send("Max Strus", "LAC")
     send("Tre Mann", "WSH")
     send("Dennis Schroder", "CHA")
@@ -965,6 +966,7 @@ def main() -> None:
         "metadata": {
             "statsSeason": "2025-26",
             "rosterSeason": source["metadata"]["season"],
+            "rosterSnapshotAt": ROSTER_SNAPSHOT_AT,
             "sourceRosterGeneratedAt": source["metadata"]["generatedAt"],
             "generatedAt": datetime.now(timezone.utc).isoformat(),
             "rosterAuthority": source["metadata"]["rosterAuthority"],

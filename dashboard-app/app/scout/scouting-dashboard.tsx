@@ -442,7 +442,7 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
             <section className={styles.provenanceCard}>
               <div>
                 <span>Roster</span>
-                <strong>{formatDate(data.metadata.sourceRosterGeneratedAt)}</strong>
+                <strong>{formatDate(data.metadata.rosterSnapshotAt)}</strong>
               </div>
               <div>
                 <span>Coverage</span>

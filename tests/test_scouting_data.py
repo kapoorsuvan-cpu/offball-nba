@@ -61,6 +61,18 @@ class ScoutingDataTests(unittest.TestCase):
         )
         self.assertNotIn("Jimmy Butler III", warriors_rotation)
 
+    def test_payton_watson_trade_roster_moves(self) -> None:
+        cleveland = {player["name"] for player in self.teams["CLE"]["players"]}
+        clippers = {player["name"] for player in self.teams["LAC"]["players"]}
+        wizards = {player["name"] for player in self.teams["WSH"]["players"]}
+        hornets = {player["name"] for player in self.teams["CHA"]["players"]}
+        nuggets = {player["name"] for player in self.teams["DEN"]["players"]}
+        self.assertTrue({"Peyton Watson", "Cam Whitmore"}.issubset(cleveland))
+        self.assertIn("Max Strus", clippers)
+        self.assertIn("Tre Mann", wizards)
+        self.assertIn("Dennis Schroder", hornets)
+        self.assertNotIn("Julian Reese", nuggets)
+
     def test_source_metadata(self) -> None:
         metadata = self.data["metadata"]
         self.assertEqual(metadata["teamCount"], 30)

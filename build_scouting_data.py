@@ -320,6 +320,30 @@ def apply_kawhi_trade(teams: list[dict[str, Any]]) -> None:
         team["topTen"] = [player["name"] for player in team["players"][:10]]
 
 
+def apply_payton_watson_trade(teams: list[dict[str, Any]]) -> None:
+    """Apply the confirmed five-team player movement supplied by the user."""
+    by_abbreviation = {team["abbreviation"]: team for team in teams}
+
+    def take(player_name: str) -> dict[str, Any]:
+        for team in teams:
+            for index, player in enumerate(team["players"]):
+                if player["name"] == player_name:
+                    return team["players"].pop(index)
+        raise RuntimeError(f"Trade override could not find {player_name}")
+
+    def send(player_name: str, destination: str) -> None:
+        by_abbreviation[destination]["players"].append(take(player_name))
+
+    send("Peyton Watson", "CLE")
+    send("Cam Whitmore", "CLE")
+    send("Max Strus", "LAC")
+    send("Tre Mann", "WSH")
+    send("Dennis Schroder", "CHA")
+
+    # Denver receives Julian Reese in the trade, then waives him as reported.
+    take("Julian Reese")
+
+
 def current_rating_index(rating_teams: list[dict[str, Any]]) -> dict[str, int]:
     ratings: dict[str, int] = {}
     for team in rating_teams:
@@ -644,6 +668,7 @@ def main() -> None:
     refresh_player_ratings(teams, rating_teams)
     apply_scouting_overrides(teams)
     reconcile_depth_chart_rosters(teams, depth_charts)
+    apply_payton_watson_trade(teams)
     rerank_rosters(teams)
     team_name_to_abbr = {
         normalized_name(team["name"]): team["abbreviation"] for team in teams

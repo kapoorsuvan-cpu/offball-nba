@@ -17,9 +17,11 @@
 }
 
 .sidebar {
-  position: sticky;
-  top: 0;
-  height: 100vh;
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 40;
+  width: 222px;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -1078,6 +1080,10 @@
     grid-template-columns: 190px minmax(0, 1fr);
   }
 
+  .sidebar {
+    width: 190px;
+  }
+
   .dashboardGrid {
     grid-template-columns: 260px minmax(510px, 1fr);
   }
@@ -1099,6 +1105,8 @@
 
   .sidebar {
     position: relative;
+    inset: auto;
+    width: auto;
     height: auto;
     border-right: 0;
     border-bottom: 1px solid var(--scout-line);

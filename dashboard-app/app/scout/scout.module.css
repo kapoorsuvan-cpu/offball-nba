@@ -562,7 +562,7 @@
 
 .court {
   position: relative;
-  height: 450px;
+  height: 410px;
   overflow: hidden;
   margin-top: 12px;
   border: 1px solid rgba(210, 226, 239, 0.72);
@@ -1036,6 +1036,27 @@
   white-space: nowrap;
 }
 
+@media (min-width: 1421px) {
+  .dashboardGrid {
+    align-items: stretch;
+  }
+
+  .rotationColumn,
+  .analysisColumn,
+  .detailColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .injuryCard,
+  .dataCues,
+  .provenanceCard {
+    height: 120px;
+    margin-top: auto;
+  }
+}
+
 @media (max-width: 1420px) {
   .shell {
     grid-template-columns: 190px minmax(0, 1fr);
@@ -1055,7 +1076,7 @@
   }
 
   .court {
-    height: 410px;
+    height: 380px;
   }
 }
 
@@ -1155,7 +1176,7 @@
   }
 
   .court {
-    height: 440px;
+    height: 410px;
   }
 
   .cueGrid {

@@ -387,7 +387,8 @@ def apply_payton_watson_trade(teams: list[dict[str, Any]]) -> None:
         by_abbreviation[destination]["players"].append(take(player_name))
 
     send("Peyton Watson", "CLE")
-    send("Cam Whitmore", "LAC")
+    # Cam Whitmore was waived after the trade and is not on an NBA roster.
+    take("Cam Whitmore")
     send("Max Strus", "LAC")
     send("Tre Mann", "WSH")
     send("Dennis Schroder", "CHA")

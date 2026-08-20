@@ -70,7 +70,14 @@ class ScoutingDataTests(unittest.TestCase):
         self.assertIn("Peyton Watson", cleveland)
         self.assertEqual(self.player("CLE", "Peyton Watson")["rating"], 81)
         self.assertNotIn("Cam Whitmore", cleveland)
-        self.assertTrue({"Cam Whitmore", "Max Strus"}.issubset(clippers))
+        self.assertIn("Max Strus", clippers)
+        self.assertFalse(
+            any(
+                player["name"] == "Cam Whitmore"
+                for team in self.teams.values()
+                for player in team["players"]
+            )
+        )
         self.assertIn("Tre Mann", wizards)
         self.assertIn("Dennis Schroder", hornets)
         self.assertNotIn("Julian Reese", nuggets)

@@ -468,6 +468,13 @@ def apply_scouting_overrides(teams: list[dict[str, Any]]) -> None:
         player for player in phoenix["players"] if player["name"] == "Haywood Highsmith"
     )
     highsmith["rating"] = 73
+    watson = next(
+        player
+        for team in teams
+        for player in team["players"]
+        if player["name"] == "Peyton Watson"
+    )
+    watson["rating"] = 81
 
 
 def reconcile_depth_chart_rosters(

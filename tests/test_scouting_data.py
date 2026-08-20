@@ -68,6 +68,7 @@ class ScoutingDataTests(unittest.TestCase):
         hornets = {player["name"] for player in self.teams["CHA"]["players"]}
         nuggets = {player["name"] for player in self.teams["DEN"]["players"]}
         self.assertTrue({"Peyton Watson", "Cam Whitmore"}.issubset(cleveland))
+        self.assertEqual(self.player("CLE", "Peyton Watson")["rating"], 81)
         self.assertIn("Max Strus", clippers)
         self.assertIn("Tre Mann", wizards)
         self.assertIn("Dennis Schroder", hornets)

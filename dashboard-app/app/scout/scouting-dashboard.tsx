@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Image from "next/image";
 import { useMemo, useState } from "react";
 import { CourtHeatmap } from "./court-heatmap";
 import { PlayerImage, TeamLogo } from "./player-image";
@@ -116,15 +116,15 @@ export function ScoutingDashboard({ data }: { data: ScoutingData }) {
     <main className={styles.shell} style={{ "--team-color": team.color } as React.CSSProperties}>
       <aside className={styles.sidebar}>
         <div className={styles.brand}>
-          <span className={styles.brandBall}>●</span>
-          <span>OFFBALL</span>
-          <strong>SCOUT</strong>
+          <Image
+            className={styles.brandLogo}
+            src="/offball-logo.png"
+            alt="OFFBALL"
+            width={824}
+            height={238}
+            priority
+          />
         </div>
-
-        <nav className={styles.productNav} aria-label="Product navigation">
-          <Link href="/">Win model</Link>
-          <span className={styles.activeNav}>Scouting lab</span>
-        </nav>
 
         <div className={styles.teamPickerHeading}>
           <div>

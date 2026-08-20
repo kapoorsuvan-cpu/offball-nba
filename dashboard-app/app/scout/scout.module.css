@@ -30,58 +30,18 @@
 }
 
 .brand {
-  min-height: 72px;
+  min-height: 82px;
   display: flex;
   align-items: center;
-  gap: 7px;
-  padding: 0 18px;
-  border-bottom: 1px solid var(--scout-line);
-  font-size: 16px;
-  font-weight: 900;
-  letter-spacing: -0.04em;
-}
-
-.brand strong {
-  color: var(--scout-blue);
-  font-style: italic;
-}
-
-.brandBall {
-  color: var(--team-color);
-  font-size: 11px;
-}
-
-.productNav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px;
-  padding: 12px;
+  padding: 10px 16px;
   border-bottom: 1px solid var(--scout-line);
 }
 
-.productNav a,
-.productNav span {
-  display: grid;
-  min-height: 36px;
-  place-items: center;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  color: var(--scout-muted);
-  font-size: 11px;
-  font-weight: 750;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.productNav a:hover {
-  color: var(--scout-text);
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.productNav .activeNav {
-  border-color: rgba(33, 183, 255, 0.34);
-  background: rgba(33, 183, 255, 0.1);
-  color: #bfeaff;
+.brandLogo {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: contain;
 }
 
 .teamPickerHeading,
@@ -315,7 +275,7 @@
 
 .dashboardGrid {
   display: grid;
-  grid-template-columns: minmax(270px, 0.8fr) minmax(600px, 2.1fr) minmax(300px, 0.92fr);
+  grid-template-columns: minmax(270px, 0.72fr) minmax(700px, 2.45fr) minmax(290px, 0.82fr);
   gap: 10px;
   padding: 10px;
   align-items: start;
@@ -602,7 +562,7 @@
 
 .court {
   position: relative;
-  height: 370px;
+  height: 450px;
   overflow: hidden;
   margin-top: 12px;
   border: 1px solid rgba(210, 226, 239, 0.72);
@@ -1095,7 +1055,7 @@
   }
 
   .court {
-    height: 335px;
+    height: 410px;
   }
 }
 
@@ -1118,7 +1078,6 @@
   }
 
   .brand,
-  .productNav,
   .teamPickerHeading {
     display: none;
   }
@@ -1196,7 +1155,7 @@
   }
 
   .court {
-    height: 390px;
+    height: 440px;
   }
 
   .cueGrid {

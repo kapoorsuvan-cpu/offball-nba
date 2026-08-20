@@ -223,6 +223,7 @@
 }
 
 .workspace {
+  grid-column: 2;
   min-width: 0;
 }
 
@@ -1110,6 +1111,10 @@
     height: auto;
     border-right: 0;
     border-bottom: 1px solid var(--scout-line);
+  }
+
+  .workspace {
+    grid-column: auto;
   }
 
   .brand,
